@@ -1,0 +1,16 @@
+name: phylo-pipeline
+
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+      - biopython
+      - dendropy
+      - scipy
+      - numpy
+      - pandas
+      - matplotlib
+      - ete3
+      - scikit-learn
+      - requests
+      - tqdm
