@@ -63,3 +63,11 @@ If you use this repository, please cite the associated manuscript.
 ## License
 
 MIT License
+
+## Related Repository
+
+This repository extends previous work available at:
+
+https://github.com/JanviJPatel30/PhylogeneticPipeline
+
+The present repository provides the integrated and reproducible framework used in the associated manuscript, including workflow organization, comparative evaluation, and reproducibility components.
