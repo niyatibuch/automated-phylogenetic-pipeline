@@ -31,21 +31,6 @@ This pipeline integrates multiple sequence alignment, phylogenetic tree inferenc
 - Developed and tested using Google Colab
 - Google Drive used for persistent storage and resume functionality
 
-## Installation
-
-Clone repository:
-
-```bash
-git clone https://github.com/JanviJPatel30/Automated-Phylogenetic-Pipeline.git
-cd Automated-Phylogenetic-Pipeline
-```
-
-Install dependencies:
-
-```bash
-pip install -r requirements.txt
-```
-
 ## Repository Structure
 
 ```text
@@ -55,10 +40,6 @@ outputs/      → generated outputs
 figures/      → manuscript figures
 docs/         → manuscript and supplementary files
 ```
-
-## Citation
-
-If you use this repository, please cite the associated manuscript.
 
 ## License
 
