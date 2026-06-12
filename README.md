@@ -71,4 +71,4 @@ This repository extends previous work available at:
 
 https://github.com/JanviJPatel30/PhylogeneticPipeline
 
-The present repository provides the integrated and reproducible framework used in the associated manuscript, including workflow organization, comparative evaluation, and reproducibility components.
+The present repository provides the workflow used in the associated manuscript together with source code, datasets, and representative outputs to support reproducibility of the reported analyses.
