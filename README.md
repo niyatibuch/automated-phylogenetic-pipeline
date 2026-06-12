@@ -36,7 +36,7 @@ This pipeline integrates multiple sequence alignment, phylogenetic tree inferenc
 ```text
 src/          → pipeline source code
 datasets/     → input datasets
-outputs/      → generated outputs
+results/      → generated outputs
 figures/      → manuscript figures
 docs/         → manuscript and supplementary files
 ```
