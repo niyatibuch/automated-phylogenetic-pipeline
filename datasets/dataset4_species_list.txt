@@ -1,0 +1,44 @@
+Datasets taken from the research papers:
+
+Dataset 1:
+Ortholog used: COI
+Temnothorax andrei    
+Temnothorax gallae    
+Temnothorax nevadensis    
+Temnothorax nitens    
+Temnothorax oxynodis    
+Temnothorax paiute
+Formicoxenus nitidulus
+Harpagoxenus canadensis
+Harpagoxenus sublaevis
+Leptothorax acervorum
+Leptothorax calderoni
+Leptothorax gredleri
+Leptothorax kutteri
+Leptothorax muscorum
+Leptothorax scamni
+Temnothorax creolus    
+Temnothorax emmae    
+Temnothorax obturator    
+Temnothorax whitfordi    
+Temnothorax affinis    
+Temnothorax albipennis    
+Temnothorax algiricus    
+Temnothorax algiricus trabutii    
+Temnothorax ambiguus    
+Temnothorax angulohumerus    
+Temnothorax angustulus    
+Temnothorax artvinensis    
+Temnothorax blascoi    
+Temnothorax cagnianti    
+Temnothorax congruus    
+Temnothorax crassispinus    
+Temnothorax curvispinosus    
+Temnothorax duloticus    
+Temnothorax exilis    
+Temnothorax gredosi    
+Temnothorax ibericus    
+Temnothorax interruptus    
+Temnothorax kubira    
+Temnothorax lichtensteini    
+Temnothorax longispinosus
