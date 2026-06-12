@@ -1,0 +1,110 @@
+Result of the pipeline:
+🌱 Phylogenetic Pipeline (Interactive Mode)
+
+Enter path to FASTA file: /content/result2.fasta
+Sequence type (dna/protein) [auto-detect if blank]: 
+Detected molecule type: dna
+MSA method (mafft, muscle, clustalw, all): all
+Inference (nj, upgma, ml, all): all
+Run full 3x3 grid? (y/n): y
+Render PNG trees? (y/n): y
+[CMD] mafft --auto /content/result2.fasta > phylo_run_20251007-072350/mafft.aln.fasta
+Alignment done: mafft -> phylo_run_20251007-072350/mafft.aln.fasta
+Tree done: mafft+nj -> phylo_run_20251007-072350/mafft_nj.nwk
+Tree done: mafft+upgma -> phylo_run_20251007-072350/mafft_upgma.nwk
+[CMD] iqtree2 -s phylo_run_20251007-072350/mafft.aln.fasta.fa -m TEST -nt AUTO -quiet
+Tree done: mafft+ml -> phylo_run_20251007-072350/mafft_ml.nwk
+[CMD] muscle -in /content/result2.fasta -out phylo_run_20251007-072350/muscle.aln.fasta
+Alignment done: muscle -> phylo_run_20251007-072350/muscle.aln.fasta
+Tree done: muscle+nj -> phylo_run_20251007-072350/muscle_nj.nwk
+Tree done: muscle+upgma -> phylo_run_20251007-072350/muscle_upgma.nwk
+[CMD] iqtree2 -s phylo_run_20251007-072350/muscle.aln.fasta.fa -m TEST -nt AUTO -quiet
+Tree done: muscle+ml -> phylo_run_20251007-072350/muscle_ml.nwk
+[CMD] clustalw -infile=/content/result2.fasta
+Alignment done: clustalw -> phylo_run_20251007-072350/clustalw.aln.fasta
+Tree done: clustalw+nj -> phylo_run_20251007-072350/clustalw_nj.nwk
+Tree done: clustalw+upgma -> phylo_run_20251007-072350/clustalw_upgma.nwk
+[CMD] iqtree2 -s phylo_run_20251007-072350/clustalw.aln.fasta.fa -m TEST -nt AUTO -quiet
+Tree done: clustalw+ml -> phylo_run_20251007-072350/clustalw_ml.nwk
+
+✅ Pipeline finished! Results in: phylo_run_20251007-072350
+Compare all generated trees? (y/n): y
+
+🔎 Tree Comparison Results (pairwise):
+
+[CMD] iqtree2 -s phylo_run_20251007-072350/mafft.aln.fasta -z phylo_run_20251007-072350/mafft.aln.treeset.nwk -zb 1000 -au -nt AUTO -quiet
+[CMD] iqtree2 -s phylo_run_20251007-072350/muscle.aln.fasta -z phylo_run_20251007-072350/muscle.aln.treeset.nwk -zb 1000 -au -nt AUTO -quiet
+[CMD] iqtree2 -s phylo_run_20251007-072350/clustalw.aln.fasta -z phylo_run_20251007-072350/clustalw.aln.treeset.nwk -zb 1000 -au -nt AUTO -quiet
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Trees Compared                           | RF    | Norm RF    | BranchLenCorr   | Support Values     | Likelihood Tests (AU/KH/SH)                                      
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+mafft+nj vs mafft+upgma                  | 8     | 0.667      | -0.173          | 7 vs 7             | T1:AU=0,KH=-,SH=0 / T2:AU=0,KH=-,SH=0 / T3:AU=1,KH=+,SH=1        
+mafft+nj vs mafft+ml                     | 8     | 0.667      | N/A             | 7 vs 0             | T1:AU=0,KH=-,SH=0 / T2:AU=0,KH=-,SH=0 / T3:AU=1,KH=+,SH=1        
+mafft+nj vs muscle+nj                    | 0     | 0.000      | -0.025          | 7 vs 7             | T1:AU=0,KH=-,SH=0 / T2:AU=0,KH=-,SH=0 / T3:AU=1,KH=+,SH=1        
+mafft+nj vs muscle+upgma                 | 8     | 0.667      | -0.045          | 7 vs 7             | T1:AU=0,KH=-,SH=0 / T2:AU=0,KH=-,SH=0 / T3:AU=1,KH=+,SH=1        
+mafft+nj vs muscle+ml                    | 10    | 0.833      | N/A             | 7 vs 0             | T1:AU=0,KH=-,SH=0 / T2:AU=0,KH=-,SH=0 / T3:AU=1,KH=+,SH=1        
+mafft+nj vs clustalw+nj                  | 0     | 0.000      | 0.990           | 7 vs 7             | T1:AU=0,KH=-,SH=0 / T2:AU=0,KH=-,SH=0 / T3:AU=1,KH=+,SH=1        
+mafft+nj vs clustalw+upgma               | 8     | 0.667      | -0.129          | 7 vs 7             | T1:AU=0,KH=-,SH=0 / T2:AU=0,KH=-,SH=0 / T3:AU=1,KH=+,SH=1        
+mafft+nj vs clustalw+ml                  | 10    | 0.833      | N/A             | 7 vs 0             | T1:AU=0,KH=-,SH=0 / T2:AU=0,KH=-,SH=0 / T3:AU=1,KH=+,SH=1        
+mafft+upgma vs mafft+ml                  | 8     | 0.667      | N/A             | 7 vs 0             | T1:AU=0,KH=-,SH=0 / T2:AU=0,KH=-,SH=0 / T3:AU=1,KH=+,SH=1        
+mafft+upgma vs muscle+nj                 | 8     | 0.667      | -0.100          | 7 vs 7             | T1:AU=0,KH=-,SH=0 / T2:AU=0,KH=-,SH=0 / T3:AU=1,KH=+,SH=1        
+mafft+upgma vs muscle+upgma              | 0     | 0.000      | 0.938           | 7 vs 7             | T1:AU=0,KH=-,SH=0 / T2:AU=0,KH=-,SH=0 / T3:AU=1,KH=+,SH=1        
+mafft+upgma vs muscle+ml                 | 10    | 0.833      | N/A             | 7 vs 0             | T1:AU=0,KH=-,SH=0 / T2:AU=0,KH=-,SH=0 / T3:AU=1,KH=+,SH=1        
+mafft+upgma vs clustalw+nj               | 8     | 0.667      | -0.186          | 7 vs 7             | T1:AU=0,KH=-,SH=0 / T2:AU=0,KH=-,SH=0 / T3:AU=1,KH=+,SH=1        
+mafft+upgma vs clustalw+upgma            | 0     | 0.000      | 0.985           | 7 vs 7             | T1:AU=0,KH=-,SH=0 / T2:AU=0,KH=-,SH=0 / T3:AU=1,KH=+,SH=1        
+mafft+upgma vs clustalw+ml               | 10    | 0.833      | N/A             | 7 vs 0             | T1:AU=0,KH=-,SH=0 / T2:AU=0,KH=-,SH=0 / T3:AU=1,KH=+,SH=1        
+mafft+ml vs muscle+nj                    | 8     | 0.667      | N/A             | 0 vs 7             | T1:AU=0,KH=-,SH=0 / T2:AU=0,KH=-,SH=0 / T3:AU=1,KH=+,SH=1        
+mafft+ml vs muscle+upgma                 | 8     | 0.667      | N/A             | 0 vs 7             | T1:AU=0,KH=-,SH=0 / T2:AU=0,KH=-,SH=0 / T3:AU=1,KH=+,SH=1        
+mafft+ml vs muscle+ml                    | 10    | 0.833      | -0.073          | N/A                | T1:AU=0,KH=-,SH=0 / T2:AU=0,KH=-,SH=0 / T3:AU=1,KH=+,SH=1        
+mafft+ml vs clustalw+nj                  | 8     | 0.667      | N/A             | 0 vs 7             | T1:AU=0,KH=-,SH=0 / T2:AU=0,KH=-,SH=0 / T3:AU=1,KH=+,SH=1        
+mafft+ml vs clustalw+upgma               | 8     | 0.667      | N/A             | 0 vs 7             | T1:AU=0,KH=-,SH=0 / T2:AU=0,KH=-,SH=0 / T3:AU=1,KH=+,SH=1        
+mafft+ml vs clustalw+ml                  | 10    | 0.833      | -0.071          | N/A                | T1:AU=0,KH=-,SH=0 / T2:AU=0,KH=-,SH=0 / T3:AU=1,KH=+,SH=1        
+muscle+nj vs muscle+upgma                | 8     | 0.667      | -0.113          | 7 vs 7             | T1:AU=0,KH=-,SH=0 / T2:AU=0,KH=-,SH=0 / T3:AU=1,KH=+,SH=1        
+muscle+nj vs muscle+ml                   | 10    | 0.833      | N/A             | 7 vs 0             | T1:AU=0,KH=-,SH=0 / T2:AU=0,KH=-,SH=0 / T3:AU=1,KH=+,SH=1        
+muscle+nj vs clustalw+nj                 | 0     | 0.000      | -0.001          | 7 vs 7             | T1:AU=0,KH=-,SH=0 / T2:AU=0,KH=-,SH=0 / T3:AU=1,KH=+,SH=1        
+muscle+nj vs clustalw+upgma              | 8     | 0.667      | -0.093          | 7 vs 7             | T1:AU=0,KH=-,SH=0 / T2:AU=0,KH=-,SH=0 / T3:AU=1,KH=+,SH=1        
+muscle+nj vs clustalw+ml                 | 10    | 0.833      | N/A             | 7 vs 0             | T1:AU=0,KH=-,SH=0 / T2:AU=0,KH=-,SH=0 / T3:AU=1,KH=+,SH=1        
+muscle+upgma vs muscle+ml                | 10    | 0.833      | N/A             | 7 vs 0             | T1:AU=0,KH=-,SH=0 / T2:AU=0,KH=-,SH=0 / T3:AU=1,KH=+,SH=1        
+muscle+upgma vs clustalw+nj              | 8     | 0.667      | -0.065          | 7 vs 7             | T1:AU=0,KH=-,SH=0 / T2:AU=0,KH=-,SH=0 / T3:AU=1,KH=+,SH=1        
+muscle+upgma vs clustalw+upgma           | 0     | 0.000      | 0.972           | 7 vs 7             | T1:AU=0,KH=-,SH=0 / T2:AU=0,KH=-,SH=0 / T3:AU=1,KH=+,SH=1        
+muscle+upgma vs clustalw+ml              | 10    | 0.833      | N/A             | 7 vs 0             | T1:AU=0,KH=-,SH=0 / T2:AU=0,KH=-,SH=0 / T3:AU=1,KH=+,SH=1        
+muscle+ml vs clustalw+nj                 | 10    | 0.833      | N/A             | 0 vs 7             | T1:AU=0,KH=-,SH=0 / T2:AU=0,KH=-,SH=0 / T3:AU=1,KH=+,SH=1        
+muscle+ml vs clustalw+upgma              | 10    | 0.833      | N/A             | 0 vs 7             | T1:AU=0,KH=-,SH=0 / T2:AU=0,KH=-,SH=0 / T3:AU=1,KH=+,SH=1        
+muscle+ml vs clustalw+ml                 | 2     | 0.167      | -0.066          | N/A                | T1:AU=0,KH=-,SH=0 / T2:AU=0,KH=-,SH=0 / T3:AU=1,KH=+,SH=1        
+clustalw+nj vs clustalw+upgma            | 8     | 0.667      | -0.145          | 7 vs 7             | T1:AU=0,KH=-,SH=0 / T2:AU=0,KH=-,SH=0 / T3:AU=1,KH=+,SH=1        
+clustalw+nj vs clustalw+ml               | 10    | 0.833      | N/A             | 7 vs 0             | T1:AU=0,KH=-,SH=0 / T2:AU=0,KH=-,SH=0 / T3:AU=1,KH=+,SH=1        
+clustalw+upgma vs clustalw+ml            | 10    | 0.833      | N/A             | 7 vs 0             | T1:AU=0,KH=-,SH=0 / T2:AU=0,KH=-,SH=0 / T3:AU=1,KH=+,SH=1        
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+📊 Result Analysis and Conclusion 📊
+-----------------------------------
+
+### 1. Explanation of the Table
+---------------------------------
+The table compares all generated phylogenetic trees using a combination of methods (e.g., MAFFT+NJ, MUSCLE+ML).
+- **RF (Robinson-Foulds) Distance**: A measure of the topological difference between two trees. A lower value means the trees are more similar.
+- **Normalized RF**: The RF distance scaled to a 0-1 range. Lower is better.
+- **BranchLenCorr**: The correlation coefficient of branch lengths. A value closer to 1 means branch lengths are highly similar.
+- **Support Values**: Indicates the number of internal branches with bootstrap support values. A higher number suggests more confidence in the tree's internal structure.
+- **Likelihood Tests (AU/KH/SH)**: Statistical tests from IQ-TREE to evaluate how well each tree fits the sequence data. For each alignment, the tree with the highest AU p-value (closest to 1) is the statistically best-fit tree. A p-value < 0.05 indicates the tree can be rejected.
+
+### 2. Identifying the Best Tree(s)
+----------------------------------
+The **statistically best-fit tree** is: **mafft+ml** (AU p-value: 1.0000)
+This tree has the highest statistical support for its topology, as determined by the AU test.
+
+The **most topologically similar trees** are: **mafft+nj vs muscle+nj** (Normalized RF: 0.0000)
+
+### 3. Quick Summary and Final Recommendation
+---------------------------------------------
+2. The **Distance-based methods (NJ and UPGMA)** produce relatively similar trees to each other (low RF distances), but they are often statistically rejected by the likelihood tests (AU p-values near 0), indicating their topologies are less likely to be correct.
+
+**Conclusion**: For generating the most accurate and statistically supported phylogenetic tree from this dataset, the best approach is to use the **Maximum Likelihood (ML) tree inference method**, paired with any of the tested Multiple Sequence Alignment methods.
+
+### 4. Locate Best Tree Images
+------------------------------------
+The best tree image is located at: phylo_run_20251007-072350/mafft_ml.png
+The most topologically similar trees image is located at: phylo_run_20251007-072350/mafft_nj_VS_muscle_nj.png
+
+All generated files are in the directory: phylo_run_20251007-072350
