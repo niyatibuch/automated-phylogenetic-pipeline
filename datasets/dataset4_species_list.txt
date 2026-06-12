@@ -1,7 +1,5 @@
-Datasets taken from the research papers:
-
-Dataset 1:
 Ortholog used: COI
+
 Temnothorax andrei    
 Temnothorax gallae    
 Temnothorax nevadensis    
