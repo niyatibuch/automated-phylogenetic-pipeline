@@ -1,0 +1,563 @@
+IQ-TREE 2.0.7 built Jan 21 2022
+
+Input file name: /content/drive/MyDrive/PhyloPipelineRuns/Temnothorax_COI_200species_phyloSafe_20260310-032427/muscle.aln.fasta
+Type of analysis: ModelFinder + tree reconstruction
+Random seed number: 555896
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+To cite ModelFinder please use: 
+
+Subha Kalyaanamoorthy, Bui Quang Minh, Thomas KF Wong, Arndt von Haeseler,
+and Lars S Jermiin (2017) ModelFinder: Fast model selection for
+accurate phylogenetic estimates. Nature Methods, 14:587–589.
+https://doi.org/10.1038/nmeth.4285
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 200 sequences with 1613 nucleotide sites
+Number of constant sites: 832 (= 51.5809% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 832 (= 51.5809% of all sites)
+Number of parsimony informative sites: 587
+Number of distinct site patterns: 797
+
+ModelFinder
+-----------
+
+Best-fit model according to BIC: TIM2+F+G4
+
+List of models sorted by BIC scores: 
+
+Model                  LogL         AIC      w-AIC        AICc     w-AICc         BIC      w-BIC
+TIM2+F+G4        -11959.730   24727.460 +    0.304   24998.354 +    0.538   26903.343 +    0.896
+TIM2+F+I+G4      -11958.196   24726.391 +    0.518   24998.852 +    0.419   26907.661 +    0.103
+GTR+F+G4         -11959.304   24730.609 +   0.0629   25004.642 -   0.0232   26917.264 -  0.00085
+GTR+F+I+G4       -11957.701   24729.401 +    0.115   25005.013 -   0.0193   26921.442 - 0.000105
+TN+F+G4          -11988.761   24783.522 - 2.04e-13   25052.855 - 7.87e-13   26954.020 - 8.87e-12
+TIM+F+G4         -11986.259   24780.517 - 9.15e-13   25051.411 - 1.62e-12   26956.401 -  2.7e-12
+TN+F+I+G4        -11986.918   24781.836 - 4.73e-13   25052.730 - 8.38e-13   26957.720 - 1.39e-12
+TIM+F+I+G4       -11984.519   24779.037 - 1.92e-12   25051.498 - 1.55e-12   26960.307 - 3.82e-13
+TIM3+F+G4        -11988.757   24785.514 - 7.52e-14   25056.408 - 1.33e-13   26961.398 - 2.22e-13
+TIM3+F+I+G4      -11986.916   24783.832 - 1.74e-13   25056.292 - 1.41e-13   26965.101 - 3.48e-14
+TPM2u+F+G4       -12005.813   24817.626 -    8e-21   25086.959 - 3.09e-20   26988.124 - 3.49e-19
+TPM2+F+G4        -12005.813   24817.626 -    8e-21   25086.959 - 3.09e-20   26988.124 - 3.49e-19
+TPM2+F+I+G4      -12006.720   24821.441 - 1.19e-21   25092.335 -  2.1e-21   26997.325 -  3.5e-21
+TPM2u+F+I+G4     -12006.720   24821.441 - 1.19e-21   25092.335 -  2.1e-21   26997.325 -  3.5e-21
+TVM+F+G4         -12005.413   24820.827 - 1.61e-21   25093.287 - 1.31e-21   27002.097 - 3.22e-22
+TVM+F+I+G4       -12006.266   24824.532 - 2.53e-22   25098.565 - 9.34e-23   27011.187 - 3.42e-24
+HKY+F+G4         -12029.389   24862.779 - 1.25e-30   25130.557 - 1.05e-29   27027.891 - 8.07e-28
+K3Pu+F+G4        -12027.767   24861.534 - 2.34e-30   25130.868 - 9.03e-30   27032.032 - 1.02e-28
+TPM3+F+G4        -12029.372   24864.743 -  4.7e-31   25134.076 - 1.82e-30   27035.241 - 2.05e-29
+TPM3u+F+G4       -12029.372   24864.743 -  4.7e-31   25134.076 - 1.82e-30   27035.241 - 2.05e-29
+HKY+F+I+G4       -12030.016   24866.033 - 2.46e-31   25135.366 - 9.53e-31   27036.531 - 1.07e-29
+K3Pu+F+I+G4      -12028.414   24864.829 -  4.5e-31   25135.723 - 7.97e-31   27040.713 - 1.33e-30
+TPM3+F+I+G4      -12029.973   24867.945 - 9.47e-32   25138.839 - 1.68e-31   27043.829 - 2.79e-31
+TPM3u+F+I+G4     -12029.973   24867.945 - 9.47e-32   25138.839 - 1.68e-31   27043.829 - 2.79e-31
+SYM+I+G4         -12180.693   25169.386 - 3.31e-97   25440.280 - 5.86e-97   27345.270 - 9.75e-97
+SYM+G4           -12184.496   25174.993 -    2e-98   25444.326 - 7.75e-98   27345.491 - 8.73e-97
+TIM2e+I+G4       -12199.090   25202.180 - 2.5e-104   25469.958 - 2.1e-103   27367.292 - 1.61e-101
+TIM2e+G4         -12203.016   25208.031 - 1.34e-105   25474.261 - 2.45e-104   27367.758 - 1.28e-101
+TIMe+I+G4        -12305.541   25415.082 - 1.47e-150   25682.860 - 1.24e-149   27580.194 - 9.46e-148
+TIMe+G4          -12309.318   25420.636 - 9.15e-152   25686.865 - 1.67e-150   27580.362 - 8.7e-148
+TIM3e+I+G4       -12328.904   25461.809 - 1.05e-160   25729.587 - 8.82e-160   27626.921 - 6.75e-158
+TIM3e+G4         -12332.787   25467.574 - 5.87e-162   25733.804 - 1.07e-160   27627.301 - 5.58e-158
+TNe+I+G4         -12342.582   25487.165 - 3.27e-166   25753.394 - 5.97e-165   27646.891 - 3.11e-162
+TNe+G4           -12346.695   25493.390 - 1.45e-167   25758.077 - 5.74e-166   27647.731 - 2.04e-162
+TVMe+G4          -12377.631   25559.262 - 7.23e-182   25827.041 - 6.08e-181   27724.374 - 4.65e-179
+TVMe+I+G4        -12375.314   25556.627 - 2.7e-181   25825.961 - 1.04e-180   27727.125 - 1.18e-179
+K3P+G4           -12503.797   25807.593 - 8.6e-236   26072.280 - 3.39e-234   27961.933 - 1.21e-230
+K3P+I+G4         -12501.836   25805.672 - 2.25e-235   26071.902 - 4.1e-234   27965.398 - 2.14e-231
+K2P+G4           -12540.556   25879.112 - 2.54e-251   26142.261 - 2.16e-249   28028.066 - 5.27e-245
+K2P+I+G4         -12538.104   25876.208 - 1.08e-250   26140.894 - 4.28e-249   28030.548 - 1.52e-245
+GTR+F+I          -12556.441   25924.882 - 2.92e-261   26198.916 - 1.08e-261   28111.538 - 3.94e-263
+F81+F+G4         -12796.929   26395.858 -        0   26662.088 -        0   28555.584 -        0
+F81+F+I+G4       -12797.255   26398.511 -        0   26666.289 -        0   28563.623 -        0
+GTR+F            -12921.575   26653.151 -        0   26925.611 -        0   28834.420 -        0
+JC+G4            -13182.915   27161.830 -        0   27423.448 -        0   29305.399 -        0
+JC+I+G4          -13182.522   27163.043 -        0   27426.193 -        0   29311.998 -        0
+
+AIC, w-AIC   : Akaike information criterion scores and weights.
+AICc, w-AICc : Corrected AIC scores and weights.
+BIC, w-BIC   : Bayesian information criterion scores and weights.
+
+Plus signs denote the 95% confidence sets.
+Minus signs denote significant exclusion.
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: TIM2+F+G4
+
+Rate parameter R:
+
+  A-C: 3.0216
+  A-G: 9.9999
+  A-T: 3.0216
+  C-G: 1.0000
+  C-T: 24.4541
+  G-T: 1.0000
+
+State frequencies: (empirical counts from alignment)
+
+  pi(A) = 0.3133
+  pi(C) = 0.1863
+  pi(G) = 0.1086
+  pi(T) = 0.3917
+
+Rate matrix Q:
+
+  A   -0.5178    0.1029    0.1985    0.2164
+  C     0.173    -1.944   0.01986     1.751
+  G    0.5727   0.03406   -0.6784   0.07161
+  T     0.173    0.8329   0.01986    -1.026
+
+Model of rate heterogeneity: Gamma with 4 categories
+Gamma shape alpha: 0.4328
+
+ Category  Relative_rate  Proportion
+  1         0.02172        0.25
+  2         0.2058         0.25
+  3         0.7645         0.25
+  4         3.008          0.25
+Relative rates are computed as MEAN of the portion of the Gamma distribution falling in the category.
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -11923.0315 (s.e. 405.8269)
+Unconstrained log-likelihood (without tree): -9303.3842
+Number of free parameters (#branches + #model parameters): 404
+Akaike information criterion (AIC) score: 24654.0631
+Corrected Akaike information criterion (AICc) score: 24924.9571
+Bayesian information criterion (BIC) score: 26829.9469
+
+Total tree length (sum of branch lengths): 14.2261
+Sum of internal branch lengths: 12.5380 (88.1335% of tree length)
+
+WARNING: 110 near-zero internal branches (<0.0006) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+WARNING: 1 too long branches (>9.8000) should be treated with caution!
+NOTE: Tree is UNROOTED although outgroup taxon 'PQ6726181_Temnothorax_3' is drawn at root
+
++--PQ6726181_Temnothorax_3
+|
+|                 +--ON0528141_Temnothorax_91
+|              +**|
+|              |  |  +**ON0528061_Temnothorax_99
+|              |  +**|
+|              |     |  +**ON0528151_Temnothorax_90
+|              |     +**|
+|              |        |     +--ON0528091_Temnothorax_96
+|              |        |  +**|
+|              |        |  |  +**ON0528131_Temnothorax_92
+|              |        +**|
+|              |           +**ON0528071_Temnothorax_98
+|           +**|
+|           |  +**ON0528081_Temnothorax_97
+|        +--|
+|        |  |                             +**ON0527961_Temnothorax_109
+|        |  |                          +**|
+|        |  |                          |  |  +**ON0528011_Temnothorax_104
+|        |  |                          |  +**|
+|        |  |                          |     |  +**ON0528031_Temnothorax_102
+|        |  |                          |     +**|
+|        |  |                          |        +--ON0527951_Temnothorax_110
+|        |  |                       +**|
+|        |  |                       |  +**ON0527941_Temnothorax_111
+|        |  |                    +**|
+|        |  |                    |  +**ON0527981_Temnothorax_107
+|        |  |                 +**|
+|        |  |                 |  +--ON0528001_Temnothorax_105
+|        |  |              +**|
+|        |  |              |  |           +**ON0528021_Temnothorax_103
+|        |  |              |  |        +**|
+|        |  |              |  |        |  +**ON0528041_Temnothorax_101
+|        |  |              |  |     +**|
+|        |  |              |  |     |  +--ON0528101_Temnothorax_95
+|        |  |              |  |  +**|
+|        |  |              |  |  |  +**ON0528121_Temnothorax_93
+|        |  |              |  +**|
+|        |  |              |     +**ON0527851_Temnothorax_116
+|        |  |           +**|
+|        |  |           |  +--ON0527971_Temnothorax_108
+|        |  |        +**|
+|        |  |        |  |  +--ON0527991_Temnothorax_106
+|        |  |        |  +**|
+|        |  |        |     +--ON0527891_Temnothorax_114
+|        |  |     +**|
+|        |  |     |  +**ON0527931_Temnothorax_112
+|        |  |  +**|
+|        |  |  |  |  +**ON0527921_Temnothorax_113
+|        |  |  |  +**|
+|        |  |  |     +**ON0527861_Temnothorax_115
+|        |  +--|
+|        |     |     +--PQ6726151_Temnothorax_6
+|        |     |  +--|
+|        |     |  |  |  +**ON0528051_Temnothorax_100
+|        |     |  |  +**|
+|        |     |  |     +**ON0528111_Temnothorax_94
+|        |     +**|
+|        |        |  +--PQ6726141_Temnothorax_7
+|        |        +**|
+|        |           +--PQ6726171_Temnothorax_4
+|     +--|
+|     |  |  +--ON0528161_Temnothorax_89
+|     |  +--|
+|     |     +**PQ6726161_Temnothorax_5
+|  +--|
+|  |  |  +--ON0528191_Temnothorax_86
+|  |  +**|
+|  |     |  +--ON0528181_Temnothorax_87
+|  |     +--|
+|  |        +**ON0528171_Temnothorax_88
++--|
+|  |        +--ON0528201_Temnothorax_85
+|  |     +**|
+|  |     |  +--ON0528211_Temnothorax_84
+|  |  +--|
+|  |  |  +--ON0528221_Temnothorax_83
+|  +--|
+|     +--ON0528231_Temnothorax_82
+|
+|        +**PQ6726201_Temnothorax_1
+|     +--|
+|     |  +**PQ6726191_Temnothorax_2
+|  +--|
+|  |  |           +--OP2971851_Temnothorax_45
+|  |  |        +**|
+|  |  |        |  +**OP2971831_Temnothorax_47
+|  |  |     +--|
+|  |  |     |  +**OP2971841_Temnothorax_46
+|  |  |  +--|
+|  |  |  |  |                    +**OP2971811_Temnothorax_49
+|  |  |  |  |                 +**|
+|  |  |  |  |                 |  |  +**OP2971921_Temnothorax_38
+|  |  |  |  |                 |  +**|
+|  |  |  |  |                 |     +**OP2971861_Temnothorax_44
+|  |  |  |  |              +**|
+|  |  |  |  |              |  +**OP2971871_Temnothorax_43
+|  |  |  |  |           +**|
+|  |  |  |  |           |  +**OP2971911_Temnothorax_39
+|  |  |  |  |        +**|
+|  |  |  |  |        |  +--OP2971821_Temnothorax_48
+|  |  |  |  |     +**|
+|  |  |  |  |     |  +**OP2971881_Temnothorax_42
+|  |  |  |  |  +**|
+|  |  |  |  |  |  +**OP2971801_Temnothorax_50
+|  |  |  |  +**|
+|  |  |  |     |  +--OP2971901_Temnothorax_40
+|  |  |  |     +--|
+|  |  |  |        +**OP2971891_Temnothorax_41
+|  |  +--|
+|  |     |     +--OP3229651_Temnothorax_11
+|  |     |  +--|
+|  |     |  |  |  +--OP3229641_Temnothorax_12
+|  |     |  |  +--|
+|  |     |  |     |  +**OP3229601_Temnothorax_16
+|  |     |  |     +**|
+|  |     |  |        |  +**OP3229621_Temnothorax_14
+|  |     |  |        +**|
+|  |     |  |           |  +**OP3229631_Temnothorax_13
+|  |     |  |           +**|
+|  |     |  |              |  +**OP3229591_Temnothorax_17
+|  |     |  |              +**|
+|  |     |  |                 +**OP3229611_Temnothorax_15
+|  |     +--|
+|  |        |  +--OP3229521_Temnothorax_24
+|  |        +--|
+|  |           |                                               +**OP3229571_Temnothorax_19
+|  |           |                                            +**|
+|  |           |                                            |  |  +--OP3229581_Temnothorax_18
+|  |           |                                            |  +**|
+|  |           |                                            |     +--OP3229561_Temnothorax_20
+|  |           |                                         +**|
+|  |           |                                         |  +--OP3229551_Temnothorax_21
+|  |           |                                      +**|
+|  |           |                                      |  +**OP3229661_Temnothorax_10
+|  |           |                                   +**|
+|  |           |                                   |  +**OP3229501_Temnothorax_26
+|  |           |                                +**|
+|  |           |                                |  +**OP3229541_Temnothorax_22
+|  |           |                             +**|
+|  |           |                             |  +**OP3229531_Temnothorax_23
+|  |           |                          +**|
+|  |           |                          |  +**OP3229491_Temnothorax_27
+|  |           |                       +**|
+|  |           |                       |  +**OP3229431_Temnothorax_32
+|  |           |                    +**|
+|  |           |                    |  |  +--OP3229411_Temnothorax_33
+|  |           |                    |  +**|
+|  |           |                    |     +**OP3229481_Temnothorax_28
+|  |           |                 +**|
+|  |           |                 |  +**OP3229441_Temnothorax_31
+|  |           |              +**|
+|  |           |              |  +**OP3229471_Temnothorax_29
+|  |           |           +**|
+|  |           |           |  +**OP2971931_Temnothorax_37
+|  |           |        +**|
+|  |           |        |  +**OP3229461_Temnothorax_30
+|  |           |     +**|
+|  |           |     |  +**OP3229401_Temnothorax_34
+|  |           |  +**|
+|  |           |  |  +--OP3229511_Temnothorax_25
+|  |           +**|
+|  |              +**OP3229671_Temnothorax_9
++--|
+   |                                                                                              +--JN2893161_Temnothorax_153
+   |                                                                                           +--|
+   |                                                                                           |  +--JN2892831_Temnothorax_155
+   |                                                                                        +--|
+   |                                                                                        |  |  +--JN2893261_Temnothorax_152
+   |                                                                                        |  +--|
+   |                                                                                        |     +**JN2892811_Temnothorax_156
+   |                                                                                     +--|
+   |                                                                                     |  +--MZ6105021_Temnothorax_118
+   |                                                                                  +--|
+   |                                                                                  |  |           +--MF8999221_Temnothorax_73
+   |                                                                                  |  |        +--|
+   |                                                                                  |  |        |  +**HQ5504391_Temnothorax_161
+   |                                                                                  |  |     +--|
+   |                                                                                  |  |     |  |  +**MF9034051_Temnothorax_51
+   |                                                                                  |  |     |  +--|
+   |                                                                                  |  |     |     +**KR4179761_Temnothorax_142
+   |                                                                                  |  |  +--|
+   |                                                                                  |  |  |  |  +--MF9047351_Temnothorax_63
+   |                                                                                  |  |  |  +--|
+   |                                                                                  |  |  |     |     +--MG3441591_Temnothorax_166
+   |                                                                                  |  |  |     |  +--|
+   |                                                                                  |  |  |     |  |  |  +**MG3427311_Temnothorax_181
+   |                                                                                  |  |  |     |  |  +**|
+   |                                                                                  |  |  |     |  |     |           +**MG3446131_Temnothorax_163
+   |                                                                                  |  |  |     |  |     |        +**|
+   |                                                                                  |  |  |     |  |     |        |  +**MF9045831_Temnothorax_65
+   |                                                                                  |  |  |     |  |     |     +**|
+   |                                                                                  |  |  |     |  |     |     |  +**MG3421851_Temnothorax_191
+   |                                                                                  |  |  |     |  |     |  +**|
+   |                                                                                  |  |  |     |  |     |  |  +**MG3428431_Temnothorax_180
+   |                                                                                  |  |  |     |  |     +--|
+   |                                                                                  |  |  |     |  |        |        +**MG3426451_Temnothorax_182
+   |                                                                                  |  |  |     |  |        |     +**|
+   |                                                                                  |  |  |     |  |        |     |  |     +**MG3417681_Temnothorax_198
+   |                                                                                  |  |  |     |  |        |     |  |  +**|
+   |                                                                                  |  |  |     |  |        |     |  |  |  +**MG3417351_Temnothorax_199
+   |                                                                                  |  |  |     |  |        |     |  +**|
+   |                                                                                  |  |  |     |  |        |     |     +**MG3434731_Temnothorax_174
+   |                                                                                  |  |  |     |  |        |  +**|
+   |                                                                                  |  |  |     |  |        |  |  +**MF9046761_Temnothorax_64
+   |                                                                                  |  |  |     |  |        +--|
+   |                                                                                  |  |  |     |  |           |  +**MG3420991_Temnothorax_193
+   |                                                                                  |  |  |     |  |           +--|
+   |                                                                                  |  |  |     |  |              +**MG3416211_Temnothorax_200
+   |                                                                                  |  |  |     +--|
+   |                                                                                  |  |  |        |           +--KR4100621_Temnothorax_147
+   |                                                                                  |  |  |        |        +**|
+   |                                                                                  |  |  |        |        |  +--MF9053941_Temnothorax_61
+   |                                                                                  |  |  |        |     +**|
+   |                                                                                  |  |  |        |     |  |           +**MF9063221_Temnothorax_80
+   |                                                                                  |  |  |        |     |  |        +**|
+   |                                                                                  |  |  |        |     |  |        |  +**MF9029581_Temnothorax_52
+   |                                                                                  |  |  |        |     |  |     +**|
+   |                                                                                  |  |  |        |     |  |     |  |  +**MF9024481_Temnothorax_53
+   |                                                                                  |  |  |        |     |  |     |  +**|
+   |                                                                                  |  |  |        |     |  |     |     +**MF9007481_Temnothorax_69
+   |                                                                                  |  |  |        |     |  |  +**|
+   |                                                                                  |  |  |        |     |  |  |  +**MF9001161_Temnothorax_71
+   |                                                                                  |  |  |        |     |  +--|
+   |                                                                                  |  |  |        |     |     +**MF9000761_Temnothorax_72
+   |                                                                                  |  |  |        |  +--|
+   |                                                                                  |  |  |        |  |  +--MG3437931_Temnothorax_170
+   |                                                                                  |  |  |        +--|
+   |                                                                                  |  |  |           |                       +**MF8991751_Temnothorax_77
+   |                                                                                  |  |  |           |                    +**|
+   |                                                                                  |  |  |           |                    |  |  +**MF9021911_Temnothorax_54
+   |                                                                                  |  |  |           |                    |  +**|
+   |                                                                                  |  |  |           |                    |     +**MF8994831_Temnothorax_75
+   |                                                                                  |  |  |           |                 +**|
+   |                                                                                  |  |  |           |                 |  +**MF9043821_Temnothorax_67
+   |                                                                                  |  |  |           |              +**|
+   |                                                                                  |  |  |           |              |  +**MF8995361_Temnothorax_74
+   |                                                                                  |  |  |           |           +**|
+   |                                                                                  |  |  |           |           |  +**MF9058921_Temnothorax_58
+   |                                                                                  |  |  |           |        +**|
+   |                                                                                  |  |  |           |        |  |  +**MF9016341_Temnothorax_55
+   |                                                                                  |  |  |           |        |  +**|
+   |                                                                                  |  |  |           |        |     +**MF9055791_Temnothorax_60
+   |                                                                                  |  |  |           |     +**|
+   |                                                                                  |  |  |           |     |  |              +**KR4179491_Temnothorax_143
+   |                                                                                  |  |  |           |     |  |           +**|
+   |                                                                                  |  |  |           |     |  |           |  +**MF9045611_Temnothorax_66
+   |                                                                                  |  |  |           |     |  |        +**|
+   |                                                                                  |  |  |           |     |  |        |  +**MG3426001_Temnothorax_183
+   |                                                                                  |  |  |           |     |  |     +**|
+   |                                                                                  |  |  |           |     |  |     |  +**MG3436461_Temnothorax_172
+   |                                                                                  |  |  |           |     |  |  +**|
+   |                                                                                  |  |  |           |     |  |  |  +**MF8994661_Temnothorax_76
+   |                                                                                  |  |  |           |     |  +**|
+   |                                                                                  |  |  |           |     |     +**MF9057061_Temnothorax_59
+   |                                                                                  |  |  |           |  +--|
+   |                                                                                  |  |  |           |  |  |  +**KR4143881_Temnothorax_145
+   |                                                                                  |  |  |           |  |  +**|
+   |                                                                                  |  |  |           |  |     |              +**MG3440171_Temnothorax_169
+   |                                                                                  |  |  |           |  |     |           +**|
+   |                                                                                  |  |  |           |  |     |           |  |  +**MG3423491_Temnothorax_188
+   |                                                                                  |  |  |           |  |     |           |  +**|
+   |                                                                                  |  |  |           |  |     |           |     +**KR4135381_Temnothorax_146
+   |                                                                                  |  |  |           |  |     |        +**|
+   |                                                                                  |  |  |           |  |     |        |  +**MG3442821_Temnothorax_165
+   |                                                                                  |  |  |           |  |     |     +**|
+   |                                                                                  |  |  |           |  |     |     |  |     +**MG3422011_Temnothorax_190
+   |                                                                                  |  |  |           |  |     |     |  |  +**|
+   |                                                                                  |  |  |           |  |     |     |  |  |  +**MG3430811_Temnothorax_176
+   |                                                                                  |  |  |           |  |     |     |  +**|
+   |                                                                                  |  |  |           |  |     |     |     +**MG3417811_Temnothorax_197
+   |                                                                                  |  |  |           |  |     |  +**|
+   |                                                                                  |  |  |           |  |     |  |  +**KR4176291_Temnothorax_144
+   |                                                                                  |  |  |           |  |     +--|
+   |                                                                                  |  |  |           |  |        +**MG3432961_Temnothorax_175
+   |                                                                                  |  |  |           +--|
+   |                                                                                  |  |  |              +**KR4038771_Temnothorax_148
+   |                                                                                  |  +--|
+   |                                                                                  |     |  +--JF8632831_Temnothorax_157
+   |                                                                                  |     +--|
+   |                                                                                  |        +**JF8632811_Temnothorax_158
+   |                                                                               +--|
+   |                                                                               |  |           +--DQ3533581_Temnothorax_140
+   |                                                                               |  |        +--|
+   |                                                                               |  |        |  |     +--JF8635561_Temnothorax_159
+   |                                                                               |  |        |  |  +--|
+   |                                                                               |  |        |  |  |  |  +--MT6063951_Temnothorax_138
+   |                                                                               |  |        |  |  |  +--|
+   |                                                                               |  |        |  |  |     +--MT6063941_Temnothorax_139
+   |                                                                               |  |        |  +--|
+   |                                                                               |  |        |     |  +**MG3441261_Temnothorax_168
+   |                                                                               |  |        |     +--|
+   |                                                                               |  |        |        |           +**MG3418191_Temnothorax_196
+   |                                                                               |  |        |        |        +**|
+   |                                                                               |  |        |        |        |  +**MF9036191_Temnothorax_68
+   |                                                                               |  |        |        |     +**|
+   |                                                                               |  |        |        |     |  +--MG3424221_Temnothorax_185
+   |                                                                               |  |        |        |  +**|
+   |                                                                               |  |        |        |  |  |  +**MG3423961_Temnothorax_187
+   |                                                                               |  |        |        |  |  +**|
+   |                                                                               |  |        |        |  |     +**MG3429351_Temnothorax_179
+   |                                                                               |  |        |        +**|
+   |                                                                               |  |        |           +**MF9070231_Temnothorax_79
+   |                                                                               |  |     +--|
+   |                                                                               |  |     |  |  +--OP2971971_Temnothorax_35
+   |                                                                               |  |     |  +--|
+   |                                                                               |  |     |     +--OP2971951_Temnothorax_36
+   |                                                                               |  |  +--|
+   |                                                                               |  |  |  |  +--MH1384671_Temnothorax_130
+   |                                                                               |  |  |  +--|
+   |                                                                               |  |  |     +**MH1384661_Temnothorax_131
+   |                                                                               |  +--|
+   |                                                                               |     |  +--HQ9546311_Temnothorax_81
+   |                                                                               |     +--|
+   |                                                                               |        |        +**MH1384791_Temnothorax_120
+   |                                                                               |        |     +--|
+   |                                                                               |        |     |  +**MH1384781_Temnothorax_121
+   |                                                                               |        |  +--|
+   |                                                                               |        |  |  +--MG8403441_Temnothorax_162
+   |                                                                               |        +--|
+   |                                                                               |           |  +--MH1384761_Temnothorax_123
+   |                                                                               |           +--|
+   |                                                                               |              |     +--MH1384771_Temnothorax_122
+   |                                                                               |              |  +--|
+   |                                                                               |              |  |  |        +**MH1384751_Temnothorax_124
+   |                                                                               |              |  |  |     +**|
+   |                                                                               |              |  |  |     |  +**MH1384731_Temnothorax_126
+   |                                                                               |              |  |  |  +--|
+   |                                                                               |              |  |  |  |  +**MH1384741_Temnothorax_125
+   |                                                                               |              |  |  +**|
+   |                                                                               |              |  |     +**MZ6107421_Temnothorax_117
+   |                                                                               |              +--|
+   |                                                                               |                 +**MZ6080871_Temnothorax_119
+   |                                                                            +--|
+   |                                                                            |  |        +--MH1384721_Temnothorax_127
+   |                                                                            |  |     +--|
+   |                                                                            |  |     |  |  +--MT6064001_Temnothorax_133
+   |                                                                            |  |     |  +--|
+   |                                                                            |  |     |     +--MT6063991_Temnothorax_134
+   |                                                                            |  |  +--|
+   |                                                                            |  |  |  |  +--MH1384691_Temnothorax_128
+   |                                                                            |  |  |  +--|
+   |                                                                            |  |  |     +**MH1384681_Temnothorax_129
+   |                                                                            |  +--|
+   |                                                                            |     +--MT6064011_Temnothorax_132
+   |                                                                         +--|
+   |                                                                         |  |           +**JN2893511_Temnothorax_150
+   |                                                                         |  |        +--|
+   |                                                                         |  |        |  +--JN2893421_Temnothorax_151
+   |                                                                         |  |     +--|
+   |                                                                         |  |     |  |  +--JN2893091_Temnothorax_154
+   |                                                                         |  |     |  +--|
+   |                                                                         |  |     |     +--HQ5457921_Temnothorax_160
+   |                                                                         |  |  +--|
+   |                                                                         |  |  |  +--JN2893521_Temnothorax_149
+   |                                                                         |  +--|
+   |                                                                         |     |        +--OX3951501_Temnothorax_8
+   |                                                                         |     |     +**|
+   |                                                                         |     |     |  +--MT6063971_Temnothorax_136
+   |                                                                         |     |  +**|
+   |                                                                         |     |  |  +**MT6063961_Temnothorax_137
+   |                                                                         |     +--|
+   |                                                                         |        +--MT6063981_Temnothorax_135
+   |                                                                      +--|
+   |                                                                      |  +--MG3421061_Temnothorax_192
+   |                                                                   +--|
+   |                                                                   |  +--HQ9286301_Temnothorax_141
+   |                                                                +--|
+   |                                                                |  |        +--MF9010821_Temnothorax_56
+   |                                                                |  |     +--|
+   |                                                                |  |     |  |  +**MF9010331_Temnothorax_57
+   |                                                                |  |     |  +**|
+   |                                                                |  |     |     +**MF9075431_Temnothorax_78
+   |                                                                |  |  +--|
+   |                                                                |  |  |  +**MF9048181_Temnothorax_62
+   |                                                                |  +--|
+   |                                                                |     +**MF9003451_Temnothorax_70
+   |                                                             +--|
+   |                                                             |  |           +**MG3444471_Temnothorax_164
+   |                                                             |  |        +**|
+   |                                                             |  |        |  |     +--MG3430461_Temnothorax_177
+   |                                                             |  |        |  |  +**|
+   |                                                             |  |        |  |  |  +**MG3436831_Temnothorax_171
+   |                                                             |  |        |  +**|
+   |                                                             |  |        |     +**MG3418291_Temnothorax_195
+   |                                                             |  |     +**|
+   |                                                             |  |     |  +**MG3429891_Temnothorax_178
+   |                                                             |  |  +--|
+   |                                                             |  |  |  +**MG3435851_Temnothorax_173
+   |                                                             |  +--|
+   |                                                             |     |  +**MG3424171_Temnothorax_186
+   |                                                             |     +--|
+   |                                                             |        +--MG3422821_Temnothorax_189
+   |                                                          +**|
+   |                                                          |  +**MG3441561_Temnothorax_167
+   |                                                       +**|
+   |                                                       |  +**MG3418781_Temnothorax_194
+   +-------------------------------------------------------|
+                                                           +--MG3425811_Temnothorax_184
+
+Tree in newick format:
+
+(PQ6726181_Temnothorax_3:0.0619932786,((((((ON0528141_Temnothorax_91:0.0014187531,(ON0528061_Temnothorax_99:0.0000010000,(ON0528151_Temnothorax_90:0.0000010000,((ON0528091_Temnothorax_96:0.0029988200,ON0528131_Temnothorax_92:0.0000010000):0.0000020714,ON0528071_Temnothorax_98:0.0000010000):0.0000023385):0.0000027787):0.0000010000):0.0000023154,ON0528081_Temnothorax_97:0.0000010000):0.0000023292,((((((((((ON0527961_Temnothorax_109:0.0000010000,(ON0528011_Temnothorax_104:0.0000010000,(ON0528031_Temnothorax_102:0.0003905795,ON0527951_Temnothorax_110:0.0007593874):0.0000010361):0.0000017354):0.0002985080,ON0527941_Temnothorax_111:0.0000010000):0.0000011766,ON0527981_Temnothorax_107:0.0000010000):0.0000234297,ON0528001_Temnothorax_105:0.0007180288):0.0000010000,((((ON0528021_Temnothorax_103:0.0000010000,ON0528041_Temnothorax_101:0.0000010000):0.0000010000,ON0528101_Temnothorax_95:0.0007179974):0.0000010000,ON0528121_Temnothorax_93:0.0000010000):0.0000010000,ON0527851_Temnothorax_116:0.0000010000):0.0000010000):0.0000010000,ON0527971_Temnothorax_108:0.0007064978):0.0000023845,(ON0527991_Temnothorax_106:0.0007057913,ON0527891_Temnothorax_114:0.0014149788):0.0000010000):0.0000021788,ON0527931_Temnothorax_112:0.0000010000):0.0000010000,(ON0527921_Temnothorax_113:0.0000010000,ON0527861_Temnothorax_115:0.0000010000):0.0000010000):0.0000010000,((PQ6726151_Temnothorax_6:0.0007001230,(ON0528051_Temnothorax_100:0.0000028845,ON0528111_Temnothorax_94:0.0000010000):0.0000024563):0.0007002013,(PQ6726141_Temnothorax_7:0.0006976571,PQ6726171_Temnothorax_4:0.0053190632):0.0000010991):0.0000022901):0.0006999457):0.0006994446,(ON0528161_Temnothorax_89:0.0007479505,PQ6726161_Temnothorax_5:0.0000023795):0.0007104713):0.0093293642,(ON0528191_Temnothorax_86:0.0086232276,(ON0528181_Temnothorax_87:0.0007130039,ON0528171_Temnothorax_88:0.0000010000):0.0037176256):0.0005957270):0.0010449636,(((ON0528201_Temnothorax_85:0.0063955101,ON0528211_Temnothorax_84:0.0006986834):0.0000022324,ON0528221_Temnothorax_83:0.0006992972):0.0006959686,ON0528231_Temnothorax_82:0.0008455528):0.0010910658):0.0497160697,(((PQ6726201_Temnothorax_1:0.0000024377,PQ6726191_Temnothorax_2:0.0000025038):0.0643630951,((((OP2971851_Temnothorax_45:0.0008972595,OP2971831_Temnothorax_47:0.0000021565):0.0000026381,OP2971841_Temnothorax_46:0.0000010000):0.0008885138,(((((((OP2971811_Temnothorax_49:0.0000010000,(OP2971921_Temnothorax_38:0.0000010000,OP2971861_Temnothorax_44:0.0000010000):0.0000010000):0.0000010000,OP2971871_Temnothorax_43:0.0000010000):0.0000024346,OP2971911_Temnothorax_39:0.0000010000):0.0000010000,OP2971821_Temnothorax_48:0.0008894186):0.0000010000,OP2971881_Temnothorax_42:0.0000010000):0.0000022430,OP2971801_Temnothorax_50:0.0000025096):0.0000026442,(OP2971901_Temnothorax_40:0.0026792981,OP2971891_Temnothorax_41:0.0000023953):0.0008890956):0.0000028326):0.0089047265,((OP3229651_Temnothorax_11:0.0085235204,(OP3229641_Temnothorax_12:0.0009089543,(OP3229601_Temnothorax_16:0.0000010000,(OP3229621_Temnothorax_14:0.0000010000,(OP3229631_Temnothorax_13:0.0000010000,(OP3229591_Temnothorax_17:0.0000010000,OP3229611_Temnothorax_15:0.0000010000):0.0000010000):0.0000010000):0.0000010000):0.0000010000):0.0009112105):0.0017827205,(OP3229521_Temnothorax_24:0.0028917419,((((((((((((((((OP3229571_Temnothorax_19:0.0000010000,(OP3229581_Temnothorax_18:0.0009277361,OP3229561_Temnothorax_20:0.0008558036):0.0000011397):0.0000010993,OP3229551_Temnothorax_21:0.0009378994):0.0000027195,OP3229661_Temnothorax_10:0.0000010000):0.0000010000,OP3229501_Temnothorax_26:0.0000010000):0.0000017278,OP3229541_Temnothorax_22:0.0000010000):0.0000023491,OP3229531_Temnothorax_23:0.0000010000):0.0000588978,OP3229491_Temnothorax_27:0.0000010000):0.0000010000,OP3229431_Temnothorax_32:0.0000010000):0.0000010000,(OP3229411_Temnothorax_33:0.0009092943,OP3229481_Temnothorax_28:0.0000010000):0.0000010000):0.0000010000,OP3229441_Temnothorax_31:0.0000010000):0.0000010000,OP3229471_Temnothorax_29:0.0000010000):0.0000010000,OP2971931_Temnothorax_37:0.0000010000):0.0000010000,OP3229461_Temnothorax_30:0.0000010000):0.0000011632,OP3229401_Temnothorax_34:0.0000010000):0.0000010000,OP3229511_Temnothorax_25:0.0027224928):0.0000027903,OP3229671_Temnothorax_9:0.0000010000):0.0000027902):0.0009519660):0.0137645096):0.0584054055):0.0624468307,((((((((((((((JN2893161_Temnothorax_153:0.0052916911,JN2892831_Temnothorax_155:0.0257264348):0.1435249529,(JN2893261_Temnothorax_152:0.0029475957,JN2892811_Temnothorax_156:0.0000026444):0.1740816801):0.0364200037,MZ6105021_Temnothorax_118:0.1463673236):0.0333641577,((((MF8999221_Temnothorax_73:0.0018435934,HQ5504391_Temnothorax_161:0.0000027170):0.0687638665,(MF9034051_Temnothorax_51:0.0000024185,KR4179761_Temnothorax_142:0.0000021801):0.0483651083):0.0050628966,(MF9047351_Temnothorax_63:0.0420484971,((MG3441591_Temnothorax_166:0.0054049592,(MG3427311_Temnothorax_181:0.0000022571,((((MG3446131_Temnothorax_163:0.0000010000,MF9045831_Temnothorax_65:0.0000010000):0.0000010000,MG3421851_Temnothorax_191:0.0000010000):0.0000010000,MG3428431_Temnothorax_180:0.0000010000):0.0000021262,(((MG3426451_Temnothorax_182:0.0000010000,((MG3417681_Temnothorax_198:0.0000010000,MG3417351_Temnothorax_199:0.0000010000):0.0000010000,MG3434731_Temnothorax_174:0.0000010000):0.0000010000):0.0000010000,MF9046761_Temnothorax_64:0.0000010000):0.0000026444,(MG3420991_Temnothorax_193:0.0000028972,MG3416211_Temnothorax_200:0.0000028989):0.0016606646):0.0016642558):0.0051654385):0.0000027398):0.0148406256,((((KR4100621_Temnothorax_147:0.0154327973,MF9053941_Temnothorax_61:0.0035954900):0.0000020316,((((MF9063221_Temnothorax_80:0.0000010000,MF9029581_Temnothorax_52:0.0000010000):0.0000010000,(MF9024481_Temnothorax_53:0.0000010000,MF9007481_Temnothorax_69:0.0000010000):0.0000010000):0.0000010000,MF9001161_Temnothorax_71:0.0000010000):0.0000021563,MF9000761_Temnothorax_72:0.0000010000):0.0017300526):0.0000027523,MG3437931_Temnothorax_170:0.0052444073):0.0017718581,((((((((MF8991751_Temnothorax_77:0.0000010000,(MF9021911_Temnothorax_54:0.0000010000,MF8994831_Temnothorax_75:0.0000010000):0.0000010000):0.0000010000,MF9043821_Temnothorax_67:0.0000010000):0.0000010000,MF8995361_Temnothorax_74:0.0000010000):0.0000010000,MF9058921_Temnothorax_58:0.0000010000):0.0000010000,(MF9016341_Temnothorax_55:0.0000010000,MF9055791_Temnothorax_60:0.0000010000):0.0000010000):0.0000010000,(((((KR4179491_Temnothorax_143:0.0000010000,MF9045611_Temnothorax_66:0.0000010000):0.0000010000,MG3426001_Temnothorax_183:0.0000010000):0.0000010000,MG3436461_Temnothorax_172:0.0000010000):0.0000010000,MF8994661_Temnothorax_76:0.0000010000):0.0000010000,MF9057061_Temnothorax_59:0.0000010000):0.0000029827):0.0000026886,(KR4143881_Temnothorax_145:0.0000020314,(((((MG3440171_Temnothorax_169:0.0000010000,(MG3423491_Temnothorax_188:0.0000010000,KR4135381_Temnothorax_146:0.0000010000):0.0000010000):0.0000010000,MG3442821_Temnothorax_165:0.0000010000):0.0000010000,((MG3422011_Temnothorax_190:0.0000010000,MG3430811_Temnothorax_176:0.0000010000):0.0000010000,MG3417811_Temnothorax_197:0.0000010000):0.0000010000):0.0000010000,KR4176291_Temnothorax_144:0.0000010000):0.0000025448,MG3432961_Temnothorax_175:0.0000029714):0.0034076557):0.0000025034):0.0017038694,KR4038771_Temnothorax_148:0.0000024704):0.0034108362):0.0034968701):0.0307520539):0.0079439337):0.0142662664,(JF8632831_Temnothorax_157:0.0015745269,JF8632811_Temnothorax_158:0.0000010000):0.0668029833):0.0828253415):0.0189440328,((((DQ3533581_Temnothorax_140:0.2747393766,((JF8635561_Temnothorax_159:0.1186161859,(MT6063951_Temnothorax_138:0.0061815701,MT6063941_Temnothorax_139:0.0152163565):0.1344555185):0.0188877953,(MG3441261_Temnothorax_168:0.0000010000,((((MG3418191_Temnothorax_196:0.0000010000,MF9036191_Temnothorax_68:0.0000010000):0.0000010000,MG3424221_Temnothorax_185:0.0018430952):0.0000010000,(MG3423961_Temnothorax_187:0.0000010000,MG3429351_Temnothorax_179:0.0000010000):0.0000026974):0.0000029139,MF9070231_Temnothorax_79:0.0000010000):0.0000026333):0.0885393647):0.0271270106):0.0161394780,(OP2971971_Temnothorax_35:0.0136748672,OP2971951_Temnothorax_36:0.0208409362):0.0838412004):0.0058398609,(MH1384671_Temnothorax_130:0.0073995164,MH1384661_Temnothorax_131:0.0000314912):0.1428884289):0.0143412252,(HQ9546311_Temnothorax_81:0.1216452471,(((MH1384791_Temnothorax_120:0.0000010000,MH1384781_Temnothorax_121:0.0000010000):0.0828071665,MG8403441_Temnothorax_162:0.0638725391):0.0140193897,(MH1384761_Temnothorax_123:0.0214561542,((MH1384771_Temnothorax_122:0.0079156589,(((MH1384751_Temnothorax_124:0.0000010000,MH1384731_Temnothorax_126:0.0000010000):0.0000024441,MH1384741_Temnothorax_125:0.0000022232):0.0016463407,MZ6107421_Temnothorax_117:0.0000025420):0.0000025950):0.0015584184,MZ6080871_Temnothorax_119:0.0000025014):0.0092566296):0.0347937699):0.0191344009):0.0733988884):0.0082080572):0.0143738314,(((MH1384721_Temnothorax_127:0.0238008299,(MT6064001_Temnothorax_133:0.0017799227,MT6063991_Temnothorax_134:0.0015977439):0.0138270661):0.0030596912,(MH1384691_Temnothorax_128:0.0032980587,MH1384681_Temnothorax_129:0.0000010000):0.0218653965):0.0060756485,MT6064011_Temnothorax_132:0.0035082449):0.0800077840):0.0043447863,((((JN2893511_Temnothorax_150:0.0000024320,JN2893421_Temnothorax_151:0.0138848600):0.1515866782,(JN2893091_Temnothorax_154:0.0102013651,HQ5457921_Temnothorax_160:0.0027219591):0.0757890756):0.0925481071,JN2893521_Temnothorax_149:0.1604256129):0.0328870183,(((OX3951501_Temnothorax_8:0.0318176518,MT6063971_Temnothorax_136:0.0015374002):0.0000013833,MT6063961_Temnothorax_137:0.0000027636):0.0000023337,MT6063981_Temnothorax_135:0.0062209411):0.0872191589):0.0279355913):0.0404079329,MG3421061_Temnothorax_192:0.1099416045):0.0967052998,HQ9286301_Temnothorax_141:0.0570634808):0.0279353109,(((MF9010821_Temnothorax_56:0.0018002028,(MF9010331_Temnothorax_57:0.0000010000,MF9075431_Temnothorax_78:0.0000010000):0.0000010000):0.0017712846,MF9048181_Temnothorax_62:0.0000027992):0.0017726313,MF9003451_Temnothorax_70:0.0000028333):0.0384887289):0.0246174514,((((MG3444471_Temnothorax_164:0.0000010000,((MG3430461_Temnothorax_177:0.0015112919,MG3436831_Temnothorax_171:0.0000010000):0.0000011651,MG3418291_Temnothorax_195:0.0000010000):0.0000250496):0.0001309796,MG3429891_Temnothorax_178:0.0000010000):0.0000010000,MG3435851_Temnothorax_173:0.0000010000):0.0016505973,(MG3424171_Temnothorax_186:0.0000026420,MG3422821_Temnothorax_189:0.0017717507):0.0036269899):0.0054153822):0.0051365705,MG3441561_Temnothorax_167:0.0000010000):0.0000020767,MG3418781_Temnothorax_194:0.0000010000):0.0000273412,MG3425811_Temnothorax_184:0.0017290213):9.9999982540):0.0530673052);
+
+TIME STAMP
+----------
+
+Date and time: Tue Mar 10 03:48:45 2026
+Total CPU time used: 700.04 seconds (0h:11m:40s)
+Total wall-clock time used: 716.308 seconds (0h:11m:56s)
+
