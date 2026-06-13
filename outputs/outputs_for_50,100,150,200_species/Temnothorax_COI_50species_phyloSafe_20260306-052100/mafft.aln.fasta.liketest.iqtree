@@ -1,0 +1,268 @@
+IQ-TREE 2.0.7 built Jan 21 2022
+
+Input file name: /content/drive/MyDrive/PhyloPipelineRuns/Temnothorax_COI_50species_phyloSafe_20260306-052100/mafft.aln.fasta
+Type of analysis: ModelFinder + tree reconstruction
+Random seed number: 605681
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+To cite ModelFinder please use: 
+
+Subha Kalyaanamoorthy, Bui Quang Minh, Thomas KF Wong, Arndt von Haeseler,
+and Lars S Jermiin (2017) ModelFinder: Fast model selection for
+accurate phylogenetic estimates. Nature Methods, 14:587–589.
+https://doi.org/10.1038/nmeth.4285
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 50 sequences with 1426 nucleotide sites
+Number of constant sites: 883 (= 61.9215% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 883 (= 61.9215% of all sites)
+Number of parsimony informative sites: 486
+Number of distinct site patterns: 378
+
+ModelFinder
+-----------
+
+Best-fit model according to BIC: TIM2+F+G4
+
+List of models sorted by BIC scores: 
+
+Model                  LogL         AIC      w-AIC        AICc     w-AICc         BIC      w-BIC
+TIM2+F+G4         -4619.132    9446.264 +    0.786    9462.797 +    0.835    9993.577 +    0.918
+TN+F+G4           -4625.307    9456.613 -  0.00445    9472.819 -  0.00557    9998.664 +   0.0721
+TIM+F+G4          -4624.071    9456.143 -  0.00563    9472.675 -  0.00598   10003.456 -  0.00657
+TIM3+F+G4         -4624.991    9457.981 -  0.00225    9474.514 -  0.00238   10005.295 -  0.00262
+GTR+F+G4          -4618.588    9449.177 +    0.183    9466.375 +     0.14   10007.015 -  0.00111
+GTR+F+I+G4        -4620.092    9454.184 -    0.015    9471.720 -  0.00964   10017.285 - 6.52e-06
+GTR+F+R2          -4622.850    9459.701 -  0.00095    9477.236 - 0.000611   10022.802 - 4.14e-07
+GTR+F+R3          -4620.072    9458.145 -  0.00207    9476.367 - 0.000944   10031.771 - 4.67e-09
+GTR+F+I           -4632.288    9476.577 - 2.06e-07    9493.775 - 1.57e-07   10034.415 - 1.24e-09
+TPM2+F+G4         -4659.026    9524.052 - 1.01e-17    9540.257 - 1.26e-17   10066.102 - 1.64e-16
+TPM2u+F+G4        -4659.026    9524.052 - 1.01e-17    9540.257 - 1.26e-17   10066.102 - 1.64e-16
+HKY+F+G4          -4664.178    9532.355 - 1.59e-19    9548.237 - 2.34e-19   10069.143 - 3.58e-17
+GTR+F             -4655.665    9521.330 - 3.94e-17    9538.194 - 3.55e-17   10073.906 - 3.31e-18
+K3Pu+F+G4         -4663.184    9532.369 - 1.58e-19    9548.574 - 1.97e-19   10074.419 - 2.56e-18
+TPM3u+F+G4        -4663.650    9533.299 - 9.91e-20    9549.505 - 1.24e-19   10075.350 - 1.61e-18
+TPM3+F+G4         -4663.650    9533.299 - 9.91e-20    9549.505 - 1.24e-19   10075.350 - 1.61e-18
+TVM+F+G4          -4658.052    9526.104 - 3.62e-18    9542.967 - 3.26e-18   10078.680 - 3.04e-19
+SYM+G4            -4807.277    9820.553 - 4.17e-82    9836.759 - 5.21e-82   10362.604 - 6.75e-81
+TIM2e+G4          -4814.670    9831.339 - 1.89e-84    9846.901 - 3.27e-84   10362.865 - 5.93e-81
+TIMe+G4           -4840.170    9882.341 - 1.59e-95    9897.903 - 2.75e-95   10413.866 - 4.99e-92
+TIM3e+G4          -4845.023    9892.047 - 1.25e-97    9907.608 - 2.15e-97   10423.572 - 3.89e-94
+TNe+G4            -4850.823    9901.646 - 1.02e-99    9916.892 - 2.07e-99   10427.909 - 4.45e-95
+F81+F+G4          -4848.318    9898.637 - 4.61e-99    9914.199 - 7.96e-99   10430.162 - 1.44e-95
+TVMe+G4           -4889.548    9983.095 - 2.11e-117    9998.977 - 3.1e-117   10519.883 - 4.75e-115
+K3P+G4            -4923.901   10047.803 - 1.88e-131   10063.048 - 3.79e-131   10574.066 - 8.15e-127
+K2P+G4            -4934.182   10066.364 - 1.75e-135   10081.296 - 4.13e-135   10587.364 - 1.06e-129
+JC+G4             -5073.394   10342.788 - 1.65e-195   10357.410 - 4.56e-195   10858.525 - 1.39e-188
+
+AIC, w-AIC   : Akaike information criterion scores and weights.
+AICc, w-AICc : Corrected AIC scores and weights.
+BIC, w-BIC   : Bayesian information criterion scores and weights.
+
+Plus signs denote the 95% confidence sets.
+Minus signs denote significant exclusion.
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: TIM2+F+G4
+
+Rate parameter R:
+
+  A-C: 2.5969
+  A-G: 5.2959
+  A-T: 2.5969
+  C-G: 1.0000
+  C-T: 24.2200
+  G-T: 1.0000
+
+State frequencies: (empirical counts from alignment)
+
+  pi(A) = 0.3285
+  pi(C) = 0.1713
+  pi(G) = 0.101
+  pi(T) = 0.3992
+
+Rate matrix Q:
+
+  A   -0.4243    0.0936    0.1126    0.2181
+  C    0.1795    -2.235   0.02126     2.034
+  G     0.366   0.03604   -0.4861     0.084
+  T    0.1795     0.873   0.02126    -1.074
+
+Model of rate heterogeneity: Gamma with 4 categories
+Gamma shape alpha: 0.5599
+
+ Category  Relative_rate  Proportion
+  1         0.04496        0.25
+  2         0.2892         0.25
+  3         0.8594         0.25
+  4         2.806          0.25
+Relative rates are computed as MEAN of the portion of the Gamma distribution falling in the category.
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -4618.7991 (s.e. 99.1463)
+Unconstrained log-likelihood (without tree): -6744.6323
+Number of free parameters (#branches + #model parameters): 104
+Akaike information criterion (AIC) score: 9445.5981
+Corrected Akaike information criterion (AICc) score: 9462.1311
+Bayesian information criterion (BIC) score: 9992.9115
+
+Total tree length (sum of branch lengths): 5.0772
+Sum of internal branch lengths: 4.7545 (93.6457% of tree length)
+
+WARNING: 34 near-zero internal branches (<0.0007) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 'PQ6726201_Temnothorax_1' is drawn at root
+
++**PQ6726201_Temnothorax_1
+|
++**PQ6726191_Temnothorax_2
+|
+|        +--PQ6726181_Temnothorax_3
+|     +--|
+|     |  |        +**PQ6726171_Temnothorax_4
+|     |  |     +**|
+|     |  |     |  +**PQ6726141_Temnothorax_7
+|     |  |  +--|
+|     |  |  |  +--PQ6726151_Temnothorax_6
+|     |  +--|
+|     |     +--PQ6726161_Temnothorax_5
+|  +--|
+|  |  |                                                     +**OP3229671_Temnothorax_9
+|  |  |                                                  +**|
+|  |  |                                                  |  |  +**OP3229571_Temnothorax_19
+|  |  |                                                  |  +**|
+|  |  |                                                  |     |  +--OP3229561_Temnothorax_20
+|  |  |                                                  |     +**|
+|  |  |                                                  |        +--OP3229521_Temnothorax_24
+|  |  |                                               +**|
+|  |  |                                               |  +--OP3229551_Temnothorax_21
+|  |  |                                            +**|
+|  |  |                                            |  +**OP3229661_Temnothorax_10
+|  |  |                                         +**|
+|  |  |                                         |  +--OP3229581_Temnothorax_18
+|  |  |                                      +**|
+|  |  |                                      |  +**OP3229501_Temnothorax_26
+|  |  |                                   +**|
+|  |  |                                   |  +**OP3229531_Temnothorax_23
+|  |  |                                +**|
+|  |  |                                |  +**OP3229541_Temnothorax_22
+|  |  |                             +**|
+|  |  |                             |  +**OP3229491_Temnothorax_27
+|  |  |                          +**|
+|  |  |                          |  +**OP3229431_Temnothorax_32
+|  |  |                       +**|
+|  |  |                       |  +**OP3229441_Temnothorax_31
+|  |  |                    +**|
+|  |  |                    |  |  +**OP3229481_Temnothorax_28
+|  |  |                    |  +**|
+|  |  |                    |     +--OP3229411_Temnothorax_33
+|  |  |                 +**|
+|  |  |                 |  +**OP3229471_Temnothorax_29
+|  |  |              +**|
+|  |  |              |  +**OP2971931_Temnothorax_37
+|  |  |           +**|
+|  |  |           |  +**OP3229461_Temnothorax_30
+|  |  |        +**|
+|  |  |        |  +**OP3229401_Temnothorax_34
+|  |  |     +--|
+|  |  |     |  +--OP3229511_Temnothorax_25
+|  |  |  +--|
+|  |  |  |  |  +--OP3229651_Temnothorax_11
+|  |  |  |  +--|
+|  |  |  |     |  +--OP3229641_Temnothorax_12
+|  |  |  |     +--|
+|  |  |  |        |        +**OP3229631_Temnothorax_13
+|  |  |  |        |     +**|
+|  |  |  |        |     |  |  +**OP3229611_Temnothorax_15
+|  |  |  |        |     |  +**|
+|  |  |  |        |     |     +**OP3229591_Temnothorax_17
+|  |  |  |        |  +**|
+|  |  |  |        |  |  +**OP3229621_Temnothorax_14
+|  |  |  |        +**|
+|  |  |  |           +**OP3229601_Temnothorax_16
+|  |  +--|
+|  |     |                       +**OP2971921_Temnothorax_38
+|  |     |                    +**|
+|  |     |                    |  +**OP2971861_Temnothorax_44
+|  |     |                 +**|
+|  |     |                 |  +**OP2971811_Temnothorax_49
+|  |     |              +**|
+|  |     |              |  +**OP2971871_Temnothorax_43
+|  |     |           +**|
+|  |     |           |  +**OP2971911_Temnothorax_39
+|  |     |        +**|
+|  |     |        |  |     +--OP2971901_Temnothorax_40
+|  |     |        |  |  +--|
+|  |     |        |  |  |  +**OP2971891_Temnothorax_41
+|  |     |        |  +**|
+|  |     |        |     +--OP2971821_Temnothorax_48
+|  |     |     +**|
+|  |     |     |  +**OP2971881_Temnothorax_42
+|  |     |  +**|
+|  |     |  |  +**OP2971801_Temnothorax_50
+|  |     +--|
+|  |        |     +--OP2971851_Temnothorax_45
+|  |        |  +**|
+|  |        |  |  +**OP2971831_Temnothorax_47
+|  |        +--|
+|  |           +**OP2971841_Temnothorax_46
++**|
+   |                                                           +--OX3951501_Temnothorax_8
+   |                                                        +**|
+   |                                                        |  +--OP2971971_Temnothorax_35
+   +--------------------------------------------------------|
+                                                            +--OP2971951_Temnothorax_36
+
+Tree in newick format:
+
+(PQ6726201_Temnothorax_1:0.0000010000,PQ6726191_Temnothorax_2:0.0000010000,(((PQ6726181_Temnothorax_3:0.0574847910,(((PQ6726171_Temnothorax_4:0.0000010000,PQ6726141_Temnothorax_7:0.0000010000):0.0006962755,PQ6726151_Temnothorax_6:0.0013661081):0.0010494535,PQ6726161_Temnothorax_5:0.0010488304):0.0552014578):0.1216594540,((((((((((((((((((OP3229671_Temnothorax_9:0.0000010000,(OP3229571_Temnothorax_19:0.0000010000,(OP3229561_Temnothorax_20:0.0008811987,OP3229521_Temnothorax_24:0.0028172135):0.0000017870):0.0000010384):0.0000011367,OP3229551_Temnothorax_21:0.0009068963):0.0000010752,OP3229661_Temnothorax_10:0.0000010000):0.0000010000,OP3229581_Temnothorax_18:0.0008929324):0.0000010000,OP3229501_Temnothorax_26:0.0000010000):0.0000014279,OP3229531_Temnothorax_23:0.0000010000):0.0000010000,OP3229541_Temnothorax_22:0.0000010000):0.0000010000,OP3229491_Temnothorax_27:0.0000010000):0.0000010000,OP3229431_Temnothorax_32:0.0000010000):0.0000010000,OP3229441_Temnothorax_31:0.0000010000):0.0000010000,(OP3229481_Temnothorax_28:0.0000010000,OP3229411_Temnothorax_33:0.0008824793):0.0000010000):0.0000010000,OP3229471_Temnothorax_29:0.0000010000):0.0000010000,OP2971931_Temnothorax_37:0.0000010000):0.0000010000,OP3229461_Temnothorax_30:0.0000010000):0.0000010000,OP3229401_Temnothorax_34:0.0000010000):0.0000010000,OP3229511_Temnothorax_25:0.0026471453):0.0009354694,(OP3229651_Temnothorax_11:0.0081661186,(OP3229641_Temnothorax_12:0.0008801036,(((OP3229631_Temnothorax_13:0.0000010000,(OP3229611_Temnothorax_15:0.0000010000,OP3229591_Temnothorax_17:0.0000010000):0.0000010000):0.0000010000,OP3229621_Temnothorax_14:0.0000010000):0.0000010000,OP3229601_Temnothorax_16:0.0000010000):0.0000010000):0.0009013716):0.0017026304):0.0125055665,((((((((OP2971921_Temnothorax_38:0.0000010000,OP2971861_Temnothorax_44:0.0000010000):0.0000010000,OP2971811_Temnothorax_49:0.0000010000):0.0000010000,OP2971871_Temnothorax_43:0.0000010000):0.0000010000,OP2971911_Temnothorax_39:0.0000010000):0.0000010000,((OP2971901_Temnothorax_40:0.0025899518,OP2971891_Temnothorax_41:0.0000010000):0.0008571105,OP2971821_Temnothorax_48:0.0008572681):0.0000010000):0.0000010000,OP2971881_Temnothorax_42:0.0000010000):0.0000010000,OP2971801_Temnothorax_50:0.0000010000):0.0000022318,((OP2971851_Temnothorax_45:0.0008662620,OP2971831_Temnothorax_47:0.0000010000):0.0000010000,OP2971841_Temnothorax_46:0.0000010000):0.0008561895):0.0094840451):0.0550643962):0.0637759414,((OX3951501_Temnothorax_8:0.2084451759,OP2971971_Temnothorax_35:0.0153764061):0.0000023237,OP2971951_Temnothorax_36:0.0157712168):4.4305204433):0.0000024527);
+
+
+USER TREES
+----------
+
+See /content/drive/MyDrive/PhyloPipelineRuns/Temnothorax_COI_50species_phyloSafe_20260306-052100/mafft.aln.fasta.liketest.trees for trees with branch lengths.
+
+WARNING: Too few replicates for AU test. At least -zb 10000 for reliable results!
+
+Tree      logL    deltaL  bp-RELL    p-KH     p-SH       c-ELW       p-AU
+-------------------------------------------------------------------------
+  1 -4850.151041  231.35       0 -      0 -      0 -  2.29e-63 -  0.00112 - 
+  2 -4856.052471  237.25       0 -      0 -      0 -  4.82e-68 - 0.000109 - 
+  3 -4618.798176       0       1 +      1 +      1 +         1 +    0.999 + 
+
+deltaL  : logL difference from the maximal logl in the set.
+bp-RELL : bootstrap proportion using RELL method (Kishino et al. 1990).
+p-KH    : p-value of one sided Kishino-Hasegawa test (1989).
+p-SH    : p-value of Shimodaira-Hasegawa test (2000).
+c-ELW   : Expected Likelihood Weight (Strimmer & Rambaut 2002).
+p-AU    : p-value of approximately unbiased (AU) test (Shimodaira, 2002).
+
+Plus signs denote the 95% confidence sets.
+Minus signs denote significant exclusion.
+All tests performed 1000 resamplings using the RELL method.
+
+TIME STAMP
+----------
+
+Date and time: Fri Mar  6 05:26:42 2026
+Total CPU time used: 30.9 seconds (0h:0m:30s)
+Total wall-clock time used: 32.5 seconds (0h:0m:32s)
+
