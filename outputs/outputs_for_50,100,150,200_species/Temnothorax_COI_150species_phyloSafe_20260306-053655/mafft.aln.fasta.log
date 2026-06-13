@@ -1,0 +1,350 @@
+IQ-TREE multicore version 2.0.7 for Linux 64-bit built Jan 21 2022
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    7af77a953618 (AVX2, FMA3, 12 GB RAM)
+Command: iqtree2 -s /content/drive/MyDrive/PhyloPipelineRuns/Temnothorax_COI_150species_phyloSafe_20260306-053655/mafft.aln.fasta -m TEST -nt AUTO -quiet
+Seed:    202807 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Fri Mar  6 05:37:16 2026
+Kernel:  AVX+FMA - auto-detect threads (2 CPU cores detected)
+
+Reading alignment file /content/drive/MyDrive/PhyloPipelineRuns/Temnothorax_COI_150species_phyloSafe_20260306-053655/mafft.aln.fasta ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 150 sequences with 1635 columns, 748 distinct patterns
+585 parsimony-informative, 124 singleton sites, 926 constant sites
+                           Gap/Ambiguity  Composition  p-value
+   1  PQ6726201_Temnothorax_1     13.82%    passed     61.54%
+   2  PQ6726191_Temnothorax_2     14.07%    passed     61.19%
+   3  PQ6726181_Temnothorax_3     13.82%    passed     29.79%
+   4  PQ6726171_Temnothorax_4     45.63%    passed     11.27%
+   5  PQ6726161_Temnothorax_5     14.92%    passed     93.91%
+   6  PQ6726151_Temnothorax_6     13.82%    passed     91.95%
+   7  PQ6726141_Temnothorax_7     13.82%    passed     93.05%
+   8  OX3951501_Temnothorax_8     82.69%    passed     58.61%
+   9  OP3229671_Temnothorax_9     31.80%    passed     41.17%
+  10  OP3229661_Temnothorax_10    30.83%    passed     37.36%
+  11  OP3229651_Temnothorax_11    29.91%    passed     35.39%
+  12  OP3229641_Temnothorax_12    28.93%    passed     40.64%
+  13  OP3229631_Temnothorax_13    29.05%    passed     46.24%
+  14  OP3229621_Temnothorax_14    28.93%    passed     43.65%
+  15  OP3229611_Temnothorax_15    31.44%    passed     42.05%
+  16  OP3229601_Temnothorax_16    28.81%    passed     43.93%
+  17  OP3229591_Temnothorax_17    29.36%    passed     43.59%
+  18  OP3229581_Temnothorax_18    30.34%    passed     33.14%
+  19  OP3229571_Temnothorax_19    32.29%    passed     44.31%
+  20  OP3229561_Temnothorax_20    30.09%    passed     32.14%
+  21  OP3229551_Temnothorax_21    31.44%    passed     39.19%
+  22  OP3229541_Temnothorax_22    30.28%    passed     32.05%
+  23  OP3229531_Temnothorax_23    30.46%    passed     31.33%
+  24  OP3229521_Temnothorax_24    32.66%    passed     44.81%
+  25  OP3229511_Temnothorax_25    28.87%    passed     34.73%
+  26  OP3229501_Temnothorax_26    30.15%    passed     30.30%
+  27  OP3229491_Temnothorax_27    29.60%    passed     38.68%
+  28  OP3229481_Temnothorax_28    29.42%    passed     38.23%
+  29  OP3229471_Temnothorax_29    29.30%    passed     36.34%
+  30  OP3229461_Temnothorax_30    28.87%    passed     35.86%
+  31  OP3229441_Temnothorax_31    29.36%    passed     37.53%
+  32  OP3229431_Temnothorax_32    29.42%    passed     38.71%
+  33  OP3229411_Temnothorax_33    29.42%    passed     34.81%
+  34  OP3229401_Temnothorax_34    28.87%    passed     38.10%
+  35  OP2971971_Temnothorax_35    60.73%    passed     21.38%
+  36  OP2971951_Temnothorax_36    60.73%    passed     23.12%
+  37  OP2971931_Temnothorax_37    28.99%    passed     38.32%
+  38  OP2971921_Temnothorax_38    29.79%    passed     75.91%
+  39  OP2971911_Temnothorax_39    28.93%    passed     73.82%
+  40  OP2971901_Temnothorax_40    28.81%    passed     66.05%
+  41  OP2971891_Temnothorax_41    28.87%    passed     70.17%
+  42  OP2971881_Temnothorax_42    28.87%    passed     75.67%
+  43  OP2971871_Temnothorax_43    28.99%    passed     75.55%
+  44  OP2971861_Temnothorax_44    29.36%    passed     74.95%
+  45  OP2971851_Temnothorax_45    29.66%    passed     72.55%
+  46  OP2971841_Temnothorax_46    28.81%    passed     76.26%
+  47  OP2971831_Temnothorax_47    29.66%    passed     76.51%
+  48  OP2971821_Temnothorax_48    28.99%    passed     77.94%
+  49  OP2971811_Temnothorax_49    29.54%    passed     77.46%
+  50  OP2971801_Temnothorax_50    29.11%    passed     79.27%
+  51  MF9034051_Temnothorax_51    59.76%    passed     20.37%
+  52  MF9029581_Temnothorax_52    64.04%    passed     55.89%
+  53  MF9024481_Temnothorax_53    64.77%    passed     51.60%
+  54  MF9021911_Temnothorax_54    68.07%    passed     41.71%
+  55  MF9016341_Temnothorax_55    64.59%    passed     30.23%
+  56  MF9010821_Temnothorax_56    65.50%    passed     12.27%
+  57  MF9010331_Temnothorax_57    64.77%    passed     19.39%
+  58  MF9058921_Temnothorax_58    64.59%    passed     36.75%
+  59  MF9057061_Temnothorax_59    63.85%    passed     34.58%
+  60  MF9055791_Temnothorax_60    64.77%    passed     34.53%
+  61  MF9053941_Temnothorax_61    64.95%    passed     50.63%
+  62  MF9048181_Temnothorax_62    64.77%    passed     23.59%
+  63  MF9047351_Temnothorax_63    63.85%    passed     37.20%
+  64  MF9046761_Temnothorax_64    64.77%    passed      7.97%
+  65  MF9045831_Temnothorax_65    64.95%    passed     11.79%
+  66  MF9045611_Temnothorax_66    64.77%    passed     38.77%
+  67  MF9043821_Temnothorax_67    65.32%    passed     37.07%
+  68  MF9036191_Temnothorax_68    68.81%    passed     61.30%
+  69  MF9007481_Temnothorax_69    64.95%    passed     56.68%
+  70  MF9003451_Temnothorax_70    64.77%    passed     28.11%
+  71  MF9001161_Temnothorax_71    63.85%    passed     51.62%
+  72  MF9000761_Temnothorax_72    66.79%    passed     69.88%
+  73  MF8999221_Temnothorax_73    68.01%    failed      3.13%
+  74  MF8995361_Temnothorax_74    65.14%    passed     38.91%
+  75  MF8994831_Temnothorax_75    67.16%    passed     43.55%
+  76  MF8994661_Temnothorax_76    64.04%    passed     38.36%
+  77  MF8991751_Temnothorax_77    67.77%    passed     45.78%
+  78  MF9075431_Temnothorax_78    65.50%    passed     17.27%
+  79  MF9070231_Temnothorax_79    67.52%    passed     71.01%
+  80  MF9063221_Temnothorax_80    64.40%    passed     60.30%
+  81  HQ9546311_Temnothorax_81    62.14%    failed      2.18%
+  82  ON0528231_Temnothorax_82    29.30%    passed     39.54%
+  83  ON0528221_Temnothorax_83    14.62%    passed     80.56%
+  84  ON0528211_Temnothorax_84    14.62%    passed     80.56%
+  85  ON0528201_Temnothorax_85    14.74%    passed     84.46%
+  86  ON0528191_Temnothorax_86    14.37%    passed     95.47%
+  87  ON0528181_Temnothorax_87    15.72%    passed     91.52%
+  88  ON0528171_Temnothorax_88    15.84%    passed     86.80%
+  89  ON0528161_Temnothorax_89    18.47%    passed     83.40%
+  90  ON0528151_Temnothorax_90    17.61%    passed     89.48%
+  91  ON0528141_Temnothorax_91    14.68%    passed     95.26%
+  92  ON0528131_Temnothorax_92    19.27%    passed     88.65%
+  93  ON0528121_Temnothorax_93    15.72%    passed     93.59%
+  94  ON0528111_Temnothorax_94    15.72%    passed     93.70%
+  95  ON0528101_Temnothorax_95    15.72%    passed     90.75%
+  96  ON0528091_Temnothorax_96    17.98%    passed     87.16%
+  97  ON0528081_Temnothorax_97    14.62%    passed     95.09%
+  98  ON0528071_Temnothorax_98    16.27%    passed     89.70%
+  99  ON0528061_Temnothorax_99    15.72%    passed     92.69%
+ 100  ON0528051_Temnothorax_100   16.09%    passed     87.61%
+ 101  ON0528041_Temnothorax_101   16.27%    passed     89.23%
+ 102  ON0528031_Temnothorax_102   15.66%    passed     93.76%
+ 103  ON0528021_Temnothorax_103   15.78%    passed     93.36%
+ 104  ON0528011_Temnothorax_104   21.96%    passed     78.41%
+ 105  ON0528001_Temnothorax_105   15.66%    passed     91.53%
+ 106  ON0527991_Temnothorax_106   14.62%    passed     94.07%
+ 107  ON0527981_Temnothorax_107   17.55%    passed     89.99%
+ 108  ON0527971_Temnothorax_108   14.62%    passed     92.20%
+ 109  ON0527961_Temnothorax_109   26.73%    passed     69.80%
+ 110  ON0527951_Temnothorax_110   19.82%    passed     82.21%
+ 111  ON0527941_Temnothorax_111   24.04%    passed     70.74%
+ 112  ON0527931_Temnothorax_112   14.62%    passed     94.70%
+ 113  ON0527921_Temnothorax_113   14.68%    passed     94.48%
+ 114  ON0527891_Temnothorax_114   14.62%    passed     95.92%
+ 115  ON0527861_Temnothorax_115   15.47%    passed     93.82%
+ 116  ON0527851_Temnothorax_116   15.66%    passed     92.75%
+ 117  MZ6107421_Temnothorax_117   59.76%    passed     33.76%
+ 118  MZ6105021_Temnothorax_118   59.76%    failed      0.00%
+ 119  MZ6080871_Temnothorax_119   59.76%    passed     33.29%
+ 120  MH1384791_Temnothorax_120   75.54%    passed     29.29%
+ 121  MH1384781_Temnothorax_121   61.71%    passed     29.01%
+ 122  MH1384771_Temnothorax_122   59.76%    passed     23.06%
+ 123  MH1384761_Temnothorax_123   59.76%    passed     21.35%
+ 124  MH1384751_Temnothorax_124   84.16%    passed     39.97%
+ 125  MH1384741_Temnothorax_125   61.41%    passed     35.99%
+ 126  MH1384731_Temnothorax_126   64.77%    passed     54.88%
+ 127  MH1384721_Temnothorax_127   59.76%    passed     48.84%
+ 128  MH1384691_Temnothorax_128   59.76%    passed     38.08%
+ 129  MH1384681_Temnothorax_129   59.76%    passed     38.08%
+ 130  MH1384671_Temnothorax_130   62.39%    passed     53.89%
+ 131  MH1384661_Temnothorax_131   64.71%    passed     28.91%
+ 132  MT6064011_Temnothorax_132   59.76%    passed     58.23%
+ 133  MT6064001_Temnothorax_133   59.76%    passed     70.83%
+ 134  MT6063991_Temnothorax_134   59.76%    passed     58.13%
+ 135  MT6063981_Temnothorax_135   59.76%    passed     17.79%
+ 136  MT6063971_Temnothorax_136   59.76%    passed     21.83%
+ 137  MT6063961_Temnothorax_137   59.76%    passed     26.30%
+ 138  MT6063951_Temnothorax_138   59.76%    passed     51.26%
+ 139  MT6063941_Temnothorax_139   59.76%    passed     37.51%
+ 140  DQ3533581_Temnothorax_140   36.70%    failed      1.41%
+ 141  HQ9286301_Temnothorax_141   59.76%    passed     35.00%
+ 142  KR4179761_Temnothorax_142   67.34%    passed     44.16%
+ 143  KR4179491_Temnothorax_143   67.09%    passed     39.58%
+ 144  KR4176291_Temnothorax_144   64.04%    passed     29.68%
+ 145  KR4143881_Temnothorax_145   62.45%    passed     43.55%
+ 146  KR4135381_Temnothorax_146   67.89%    passed     29.14%
+ 147  KR4100621_Temnothorax_147   66.97%    passed     45.97%
+ 148  KR4038771_Temnothorax_148   65.32%    passed     43.32%
+ 149  JN2893521_Temnothorax_149   59.76%    passed      5.56%
+ 150  JN2893511_Temnothorax_150   59.76%    passed     49.45%
+WARNING: 67 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                       41.63%  4 sequences failed composition chi2 test (p-value<5%; df=3)
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.026 seconds
+Measuring multi-threading efficiency up to 2 CPU cores
+Increase to 10 rounds for branch lengths
+8 trees examined
+Threads: 1 / Time: 2.045 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -47478
+Threads: 2 / Time: 6.229 sec / Speedup: 0.328 / Efficiency: 16% / LogL: -47478
+BEST NUMBER OF THREADS: 1
+
+Perform fast likelihood tree search using GTR+I+G model...
+Estimate model parameters (epsilon = 5.000)
+Perform nearest neighbor interchange...
+Estimate model parameters (epsilon = 1.000)
+1. Initial log-likelihood: -9874.897
+2. Current log-likelihood: -9873.497
+Optimal log-likelihood: -9872.650
+Rate parameters:  A-C: 2.86386  A-G: 8.47957  A-T: 2.89383  C-G: 0.56034  C-T: 24.37507  G-T: 1.00000
+Base frequencies:  A: 0.318  C: 0.182  G: 0.106  T: 0.394
+Proportion of invariable sites: 0.177
+Gamma shape alpha: 0.573
+Parameters optimization took 2 rounds (0.607 sec)
+Time for fast ML tree search: 4.528 seconds
+
+NOTE: ModelFinder requires 14 MB RAM!
+ModelFinder will test up to 88 DNA models (sample size: 1635) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+  1  GTR+F         10513.692    305 21637.384    21777.835    23284.200
+  2  GTR+F+I       10278.671    306 21169.343    21310.822    22821.559
+  3  GTR+F+G4      9869.273     306 20350.546    20492.024    22002.761
+  4  GTR+F+I+G4    9870.125     307 20354.251    20496.762    22011.866
+  7  SYM+G4        10102.609    303 20811.218    20949.628    22447.236
+  8  SYM+I+G4      10103.210    304 20814.420    20953.849    22455.837
+ 11  TVM+F+G4      9914.994     305 20439.988    20580.440    22086.805
+ 12  TVM+F+I+G4    9917.565     306 20447.130    20588.609    22099.345
+ 15  TVMe+G4       10259.800    302 21123.600    21260.997    22754.219
+ 16  TVMe+I+G4     10262.243    303 21130.485    21268.895    22766.503
+ 19  TIM3+F+G4     9893.899     304 20395.797    20535.226    22037.214
+ 20  TIM3+F+I+G4   9895.242     305 20400.484    20540.935    22047.300
+ 23  TIM3e+G4      10227.599    301 21057.199    21193.586    22682.418
+ 24  TIM3e+I+G4    10228.519    302 21061.039    21198.435    22691.657
+ 27  TIM2+F+G4     9869.581     304 20347.163    20486.591    21988.580
+ 28  TIM2+F+I+G4   9870.402     305 20350.804    20491.255    21997.620
+ 31  TIM2e+G4      10119.054    301 20840.108    20976.495    22465.326
+ 32  TIM2e+I+G4    10120.131    302 20844.262    20981.659    22474.881
+ 35  TIM+F+G4      9890.345     304 20388.691    20528.119    22030.108
+ 36  TIM+F+I+G4    9891.753     305 20393.505    20533.957    22040.322
+ 39  TIMe+G4       10204.143    301 21010.285    21146.672    22635.504
+ 40  TIMe+I+G4     10205.715    302 21015.430    21152.827    22646.049
+ 43  TPM3u+F+G4    9934.249     303 20474.498    20612.908    22110.515
+ 44  TPM3u+F+I+G4  9937.357     304 20482.714    20622.143    22124.131
+ 47  TPM3+F+G4     9934.249     303 20474.498    20612.908    22110.515
+ 48  TPM3+F+I+G4   9937.357     304 20482.714    20622.143    22124.131
+ 51  TPM2u+F+G4    9915.483     303 20436.966    20575.376    22072.983
+ 52  TPM2u+F+I+G4  9918.040     304 20444.080    20583.509    22085.497
+ 55  TPM2+F+G4     9915.483     303 20436.966    20575.376    22072.983
+ 56  TPM2+F+I+G4   9918.040     304 20444.080    20583.509    22085.497
+ 59  K3Pu+F+G4     9931.719     303 20469.438    20607.848    22105.455
+ 60  K3Pu+F+I+G4   9934.690     304 20477.380    20616.808    22118.797
+ 63  K3P+G4        10362.090    300 21324.180    21459.562    22943.999
+ 64  K3P+I+G4      10366.265    301 21334.531    21470.918    22959.749
+ 67  TN+F+G4       9893.985     303 20393.970    20532.380    22029.988
+ 68  TN+F+I+G4     9895.276     304 20398.553    20537.981    22039.970
+ 71  TNe+G4        10239.616    300 21079.232    21214.614    22699.051
+ 72  TNe+I+G4      10241.091    301 21084.182    21220.569    22709.401
+ 75  HKY+F+G4      9934.494     302 20472.988    20610.385    22103.607
+ 76  HKY+F+I+G4    9937.584     303 20481.168    20619.579    22117.186
+ 79  K2P+G4        10397.225    299 21392.450    21526.832    23006.870
+ 80  K2P+I+G4      10401.004    300 21402.008    21537.390    23021.828
+ 83  F81+F+G4      10529.521    301 21661.042    21797.429    23286.261
+ 84  F81+F+I+G4    10531.556    302 21667.111    21804.508    23297.730
+ 87  JC+G4         10881.849    298 22359.697    22493.084    23968.718
+ 88  JC+I+G4       10885.145    299 22368.290    22502.672    23982.710
+Akaike Information Criterion:           TIM2+F+G4
+Corrected Akaike Information Criterion: TIM2+F+G4
+Bayesian Information Criterion:         TIM2+F+G4
+Best-fit model: TIM2+F+G4 chosen according to BIC
+
+All model information printed to /content/drive/MyDrive/PhyloPipelineRuns/Temnothorax_COI_150species_phyloSafe_20260306-053655/mafft.aln.fasta.model.gz
+CPU time for ModelFinder: 76.907 seconds (0h:1m:16s)
+Wall-clock time for ModelFinder: 76.277 seconds (0h:1m:16s)
+
+NOTE: 14 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -9869.581
+Optimal log-likelihood: -9869.566
+Rate parameters:  A-C: 3.34164  A-G: 10.05438  A-T: 3.34164  C-G: 1.00000  C-T: 27.79328  G-T: 1.00000
+Base frequencies:  A: 0.318  C: 0.182  G: 0.106  T: 0.394
+Gamma shape alpha: 0.383
+Parameters optimization took 1 rounds (0.124 sec)
+Computing ML distances based on estimated model parameters... 0.500 sec
+WARNING: Some pairwise ML distances are too long (saturated)
+Computing BIONJ tree...
+0.026 seconds
+Log-likelihood of BIONJ tree: -10952.651
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 2.801 second
+Computing log-likelihood of 98 initial trees ... 4.738 seconds
+Current best score: -9869.566
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -9869.525
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 2: -9861.565
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 3: -9857.846
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 4: -9857.227
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 5: -9853.455
+Iteration 10 / LogL: -9861.230 / Time: 0h:0m:26s
+Iteration 20 / LogL: -9867.309 / Time: 0h:0m:48s
+Finish initializing candidate tree set (20)
+Current best tree score: -9853.455 / CPU time: 47.607
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 24: -9853.195
+Iteration 30 / LogL: -9853.201 / Time: 0h:1m:1s (0h:3m:18s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 37: -9853.150
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 38: -9852.741
+Iteration 40 / LogL: -9888.800 / Time: 0h:1m:13s (0h:3m:5s left)
+Iteration 50 / LogL: -9910.350 / Time: 0h:1m:26s (0h:2m:35s left)
+Iteration 60 / LogL: -9856.477 / Time: 0h:1m:37s (0h:2m:8s left)
+Iteration 70 / LogL: -9877.285 / Time: 0h:1m:51s (0h:1m:49s left)
+Iteration 80 / LogL: -9906.308 / Time: 0h:2m:3s (0h:1m:30s left)
+Iteration 90 / LogL: -9860.852 / Time: 0h:2m:17s (0h:1m:14s left)
+Iteration 100 / LogL: -9856.860 / Time: 0h:2m:29s (0h:0m:57s left)
+BETTER TREE FOUND at iteration 110: -9852.738
+Iteration 110 / LogL: -9852.738 / Time: 0h:2m:44s (0h:2m:30s left)
+Iteration 120 / LogL: -9853.238 / Time: 0h:2m:57s (0h:2m:14s left)
+Iteration 130 / LogL: -9853.370 / Time: 0h:3m:8s (0h:1m:57s left)
+Iteration 140 / LogL: -9852.795 / Time: 0h:3m:21s (0h:1m:41s left)
+Iteration 150 / LogL: -9885.812 / Time: 0h:3m:34s (0h:1m:26s left)
+Iteration 160 / LogL: -9866.027 / Time: 0h:3m:47s (0h:1m:11s left)
+Iteration 170 / LogL: -9862.789 / Time: 0h:4m:0s (0h:0m:56s left)
+BETTER TREE FOUND at iteration 176: -9852.738
+Iteration 180 / LogL: -10443.359 / Time: 0h:4m:11s (0h:2m:14s left)
+Iteration 190 / LogL: -9860.607 / Time: 0h:4m:23s (0h:2m:0s left)
+Iteration 200 / LogL: -9853.143 / Time: 0h:4m:35s (0h:1m:45s left)
+Iteration 210 / LogL: -9900.072 / Time: 0h:4m:48s (0h:1m:31s left)
+Iteration 220 / LogL: -9856.809 / Time: 0h:5m:0s (0h:1m:16s left)
+Iteration 230 / LogL: -9853.241 / Time: 0h:5m:11s (0h:1m:2s left)
+Iteration 240 / LogL: -9853.137 / Time: 0h:5m:25s (0h:0m:49s left)
+Iteration 250 / LogL: -9852.761 / Time: 0h:5m:37s (0h:0m:35s left)
+Iteration 260 / LogL: -9860.496 / Time: 0h:5m:48s (0h:0m:21s left)
+Iteration 270 / LogL: -9855.730 / Time: 0h:6m:0s (0h:0m:8s left)
+TREE SEARCH COMPLETED AFTER 277 ITERATIONS / Time: 0h:6m:8s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -9852.738
+Optimal log-likelihood: -9852.737
+Rate parameters:  A-C: 3.33872  A-G: 9.98312  A-T: 3.33872  C-G: 1.00000  C-T: 27.84034  G-T: 1.00000
+Base frequencies:  A: 0.318  C: 0.182  G: 0.106  T: 0.394
+Gamma shape alpha: 0.385
+Parameters optimization took 1 rounds (0.120 sec)
+BEST SCORE FOUND : -9852.737
+Total tree length: 13.061
+
+Total number of iterations: 277
+CPU time used for tree search: 358.428 sec (0h:5m:58s)
+Wall-clock time used for tree search: 367.329 sec (0h:6m:7s)
+Total CPU time used: 359.417 sec (0h:5m:59s)
+Total wall-clock time used: 368.387 sec (0h:6m:8s)
+
+Analysis results written to: 
+  IQ-TREE report:                /content/drive/MyDrive/PhyloPipelineRuns/Temnothorax_COI_150species_phyloSafe_20260306-053655/mafft.aln.fasta.iqtree
+  Maximum-likelihood tree:       /content/drive/MyDrive/PhyloPipelineRuns/Temnothorax_COI_150species_phyloSafe_20260306-053655/mafft.aln.fasta.treefile
+  Likelihood distances:          /content/drive/MyDrive/PhyloPipelineRuns/Temnothorax_COI_150species_phyloSafe_20260306-053655/mafft.aln.fasta.mldist
+  Screen log file:               /content/drive/MyDrive/PhyloPipelineRuns/Temnothorax_COI_150species_phyloSafe_20260306-053655/mafft.aln.fasta.log
+
+Date and Time: Fri Mar  6 05:44:41 2026
